@@ -65,7 +65,7 @@ Any Postgres 14+ works. To change data, edit `data/materials/*.json` (always add
 1. **Neon**: create a project (region `aws-eu-central-1`) and copy the **pooled** connection string (`…-pooler…/neondb?sslmode=require`).
 2. **Migrate and seed** (from any machine): `DATABASE_URL='<neon pooled url>' node scripts/migrate.mjs && DATABASE_URL='<…>' node scripts/seed.mjs`.
 3. **Railway**: new project → deploy from this GitHub repo. `railway.json` selects the `Dockerfile` and the `/api/health` health check.
-   Set the service variable `DATABASE_URL` to the Neon pooled string. The container runs migrations on start, re-seeds from `data/` (disable with `SEED_ON_START=false`), then starts the Next.js standalone server on `$PORT`.
+   Set the service variables `DATABASE_URL` (Neon pooled string) and `PORT=3000` (the port the public domain targets). The container runs migrations on start, re-seeds from `data/` (disable with `SEED_ON_START=false`), then starts the Next.js standalone server on `$PORT`.
 4. Generate a public Railway domain under Settings → Networking.
 
 ## Roadmap
