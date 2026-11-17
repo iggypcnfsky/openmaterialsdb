@@ -1,0 +1,116 @@
+{
+  "id": "MAT-250",
+  "slug": "pvc-foam-h200",
+  "name": "PVC foam H200",
+  "name_source": "PVC foam H200",
+  "category": "Core",
+  "subcategory": null,
+  "marine_use": [
+    "Wysokie obciążenia"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 200,
+      "unit": "kg/m³",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H200"
+    },
+    "compressive_strength": {
+      "value": 5.4,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H200, perpendicular to plane"
+    },
+    "compressive_modulus": {
+      "value": 310,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H200, perpendicular to plane"
+    },
+    "tensile_strength": {
+      "value": 7.1,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H200, perpendicular to plane"
+    },
+    "tensile_modulus_core": {
+      "value": 250,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H200, perpendicular to plane"
+    },
+    "shear_strength": {
+      "value": 3.5,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H200, perpendicular to plane"
+    },
+    "shear_modulus": {
+      "value": 73,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H200, perpendicular to plane"
+    },
+    "thermal_conductivity": {
+      "value": 0.044,
+      "unit": "W/m·K",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H200"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 140,
+    "density_kg_m3": {
+      "value": 200.0
+    },
+    "young_modulus_gpa": {
+      "value": 0.2
+    },
+    "cost": {
+      "min": 30.0,
+      "max": 45.0
+    },
+    "cost_unit": "EUR/m³",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "core",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "diab-divinycell-h",
+        "label": "Diab Divinycell H technical data sheet, rev 26 SI (May 2026)",
+        "url": "https://diab-media.azureedge.net/eyajkrhd/diab-divinycell-h-may-2026-rev26-si.pdf",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

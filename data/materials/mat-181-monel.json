@@ -1,0 +1,116 @@
+{
+  "id": "MAT-181",
+  "slug": "monel",
+  "name": "Monel",
+  "name_source": "Monel",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy bardzo odporne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 160.0,
+      "source": "mif-monel-400-n04400"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 20.0,
+      "max": 40.0,
+      "source": "mif-monel-400-n04400"
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.32,
+      "source": "mif-monel-400-n04400"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 540.0,
+      "max": 780.0,
+      "source": "mif-monel-400-n04400"
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 210.0,
+      "max": 590.0,
+      "source": "mif-monel-400-n04400"
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 1000.0,
+      "source": "mif-monel-400-n04400"
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 23.0,
+      "source": "mif-monel-400-n04400"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 14.0,
+      "source": "mif-monel-400-n04400"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 8900.0,
+      "source": "mif-monel-400-n04400"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 103,
+    "density_kg_m3": {
+      "value": 8800.0
+    },
+    "young_modulus_gpa": {
+      "value": 180.0
+    },
+    "cost": {
+      "min": 25.0,
+      "max": 45.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "low",
+    "notes": "Drogi"
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-monel-400-n04400",
+        "label": "MakeItFrom.com – Monel 400 (N04400)",
+        "url": "https://www.makeitfrom.com/material-properties/Monel-400-NiCu30Fe-2.4360-N04400-NA13",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

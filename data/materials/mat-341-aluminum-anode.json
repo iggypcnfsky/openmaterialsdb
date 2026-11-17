@@ -1,0 +1,130 @@
+{
+  "id": "MAT-341",
+  "slug": "aluminum-anode",
+  "name": "Aluminum anode",
+  "name_source": "Aluminum anode",
+  "category": "Cathodic protection",
+  "subcategory": null,
+  "marine_use": [
+    "Dla aluminium"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.916,
+          0.923,
+          0.924
+        ],
+        "srgb": [
+          0.9621,
+          0.9654,
+          0.9658
+        ],
+        "hex": "#f5f6f6",
+        "source": "pb-aluminum"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-aluminum"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-aluminum",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-aluminum"
+      },
+      "specular_color": {
+        "linear": [
+          0.989,
+          0.989,
+          0.972
+        ],
+        "source": "pb-aluminum",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          0.728978,
+          6.45971,
+          0.588215,
+          5.19646,
+          0.78354,
+          4.37746
+        ],
+        "source": "pb-aluminum",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.jpeg",
+    "pb_name": "Aluminum",
+    "proxy_note": "Pure-metal optical data; anode alloys differ slightly.",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Aluminium",
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/Mirror"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 2700.0,
+      "unit": "kg/m³",
+      "source": "pb-aluminum",
+      "note": "Pure metal density."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 194,
+    "density_kg_m3": null,
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 12.0,
+      "max": 25.0
+    },
+    "cost_unit": "EUR/szt",
+    "confidence": "high",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "cathodic-protection",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "pb-aluminum",
+        "label": "Physically Based – Aluminum",
+        "url": "https://physicallybased.info/?search=Aluminum",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

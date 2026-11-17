@@ -1,0 +1,183 @@
+{
+  "id": "MAT-084",
+  "slug": "titanium-grade-2",
+  "name": "Titanium Grade 2",
+  "name_source": "Tytan Grade 2",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy premium",
+    "odporne na korozję"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.441,
+          0.4,
+          0.361
+        ],
+        "srgb": [
+          0.6951,
+          0.6652,
+          0.635
+        ],
+        "hex": "#b1aaa2",
+        "source": "pb-titanium"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-titanium"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-titanium",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-titanium"
+      },
+      "specular_color": {
+        "linear": [
+          0.67,
+          0.641,
+          0.52
+        ],
+        "source": "pb-titanium",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          1.9345,
+          2.33987,
+          1.86761,
+          2.05312,
+          2.05863,
+          1.74518
+        ],
+        "source": "pb-titanium",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/titanium.jpeg",
+    "pb_name": "Titanium",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=main&book=Ti&page=Palm",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "hardness_brinell": {
+      "unit": "HB",
+      "value": 150.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 110.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 23.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.32,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "value": 420.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "value": 360.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 320.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 22.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 9.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 4500.0,
+      "source": "mif-grade-2-titanium-r50400"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 53,
+    "density_kg_m3": {
+      "value": 4500.0
+    },
+    "young_modulus_gpa": {
+      "value": 105.0
+    },
+    "cost": {
+      "min": 40.0,
+      "max": 70.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "low",
+    "notes": "Bardzo drogi"
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-grade-2-titanium-r50400",
+        "label": "MakeItFrom.com – Grade 2 titanium (R50400)",
+        "url": "https://www.makeitfrom.com/material-properties/Grade-2-3.7035-R50400-Titanium",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-titanium",
+        "label": "Physically Based – Titanium",
+        "url": "https://physicallybased.info/?search=Titanium",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

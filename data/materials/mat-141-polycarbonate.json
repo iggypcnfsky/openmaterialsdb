@@ -1,0 +1,146 @@
+{
+  "id": "MAT-141",
+  "slug": "polycarbonate",
+  "name": "Polycarbonate",
+  "name_source": "Poliwęglan",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Lekkie przeszklenia"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          1,
+          1,
+          1
+        ],
+        "srgb": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#ffffff",
+        "source": "pb-plastic-pc"
+      },
+      "base_metalness": {
+        "value": 0,
+        "source": "pb-plastic-pc"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-plastic-pc",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5848,
+        "source": "pb-plastic-pc"
+      },
+      "transmission_weight": {
+        "value": 1,
+        "source": "pb-plastic-pc"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pc.jpeg",
+    "pb_name": "Plastic (PC)",
+    "proxy_note": "Clear, unpigmented polymer.",
+    "upstream_sources": [
+      "https://en.wikipedia.org/wiki/Polycarbonate",
+      "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc",
+      "https://www.bpf.co.uk/plastipedia/polymers/polycarbonate.aspx"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 3.5,
+      "max": 110.0,
+      "source": "mif-polycarbonate-pc"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 66.0,
+      "max": 160.0,
+      "source": "mif-polycarbonate-pc"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "min": 10.0,
+      "max": 69.0,
+      "source": "mif-polycarbonate-pc"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "min": 1200.0,
+      "max": 1400.0,
+      "source": "mif-polycarbonate-pc"
+    },
+    "water_absorption": {
+      "unit": "%",
+      "min": 0.16,
+      "max": 0.19,
+      "source": "mif-polycarbonate-pc"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 82,
+    "density_kg_m3": {
+      "value": 1200.0
+    },
+    "young_modulus_gpa": {
+      "value": 2.3
+    },
+    "cost": {
+      "min": 15.0,
+      "max": 30.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "mif-polycarbonate-pc",
+        "label": "MakeItFrom.com – Polycarbonate (PC)",
+        "url": "https://www.makeitfrom.com/material-properties/Polycarbonate-PC",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-plastic-pc",
+        "label": "Physically Based – Plastic (PC)",
+        "url": "https://physicallybased.info/?search=Plastic+(PC)",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

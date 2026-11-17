@@ -1,0 +1,57 @@
+{
+  "id": "MAT-291",
+  "slug": "graphene-enhanced-coating",
+  "name": "Graphene-enhanced coating",
+  "name_source": "Graphene-enhanced coating",
+  "category": "Coating",
+  "subcategory": null,
+  "marine_use": [
+    "Wyższa trwałość"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 167,
+    "density_kg_m3": null,
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 50.0,
+      "max": 90.0
+    },
+    "cost_unit": "EUR/l",
+    "confidence": "low",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "coating",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

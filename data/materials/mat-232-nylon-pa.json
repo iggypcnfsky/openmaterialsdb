@@ -1,0 +1,87 @@
+{
+  "id": "MAT-232",
+  "slug": "nylon-pa",
+  "name": "Nylon (PA)",
+  "name_source": "Nylon (PA)",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy mechaniczne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "min": 1.1,
+      "max": 16.0,
+      "source": "mif-polyamide-6-nylon-6"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 2.5,
+      "max": 67.0,
+      "source": "mif-polyamide-6-nylon-6"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 35.0,
+      "max": 210.0,
+      "source": "mif-polyamide-6-nylon-6"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 128,
+    "density_kg_m3": {
+      "value": 1150.0
+    },
+    "young_modulus_gpa": {
+      "min": 2.0,
+      "max": 3.0
+    },
+    "cost": {
+      "min": 4.0,
+      "max": 8.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "mif-polyamide-6-nylon-6",
+        "label": "MakeItFrom.com – Polyamide 6 (nylon 6)",
+        "url": "https://www.makeitfrom.com/material-properties/Polyamide-PA-Nylon-6",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

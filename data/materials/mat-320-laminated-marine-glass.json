@@ -1,0 +1,117 @@
+{
+  "id": "MAT-320",
+  "slug": "laminated-marine-glass",
+  "name": "Laminated marine glass",
+  "name_source": "Laminated marine glass",
+  "category": "Glass",
+  "subcategory": null,
+  "marine_use": [
+    "Okna bezpieczeństwa"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          1,
+          1,
+          1
+        ],
+        "srgb": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#ffffff",
+        "source": "pb-glass"
+      },
+      "base_metalness": {
+        "value": 0,
+        "source": "pb-glass"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-glass",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.52,
+        "source": "pb-glass"
+      },
+      "transmission_weight": {
+        "value": 1,
+        "source": "pb-glass"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/glass.jpeg",
+    "pb_name": "Glass",
+    "proxy_note": "Soda-lime glass optical data; laminated interlayer not modelled.",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=3d&book=glass&page=soda-lime-clear",
+      "https://en.wikipedia.org/wiki/Soda%E2%80%93lime_glass",
+      "https://en.wikipedia.org/wiki/Density",
+      "https://www.acoustic-supplies.com/absorption-coefficient-chart/",
+      "https://www.acoustic.ua/st/web_absorption_data_eng.pdf"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 2500.0,
+      "unit": "kg/m³",
+      "source": "pb-glass",
+      "note": "Soda-lime glass"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 183,
+    "density_kg_m3": {
+      "value": 2500.0
+    },
+    "young_modulus_gpa": {
+      "value": 70.0
+    },
+    "cost": {
+      "min": 60.0,
+      "max": 120.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "glass",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "pb-glass",
+        "label": "Physically Based – Glass",
+        "url": "https://physicallybased.info/?search=Glass",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

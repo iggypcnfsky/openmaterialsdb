@@ -1,0 +1,62 @@
+{
+  "id": "MAT-093",
+  "slug": "flax-fibre",
+  "name": "Flax fibre",
+  "name_source": "Włókno lniane (flax)",
+  "category": "Fibre",
+  "subcategory": null,
+  "marine_use": [
+    "Zrównoważone kompozyty"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 59,
+    "density_kg_m3": {
+      "value": 1500.0
+    },
+    "young_modulus_gpa": {
+      "min": 50.0,
+      "max": 70.0
+    },
+    "cost": {
+      "min": 6.0,
+      "max": 12.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "low",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "fibre",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

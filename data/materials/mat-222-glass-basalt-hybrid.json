@@ -1,0 +1,63 @@
+{
+  "id": "MAT-222",
+  "slug": "glass-basalt-hybrid",
+  "name": "Glass-basalt hybrid",
+  "name_source": "Glass-basalt hybrid",
+  "category": "Composite",
+  "subcategory": null,
+  "marine_use": [
+    "Lepsza odporność chemiczna"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": "Composite properties depend strongly on layup, fibre volume fraction and process."
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 124,
+    "density_kg_m3": {
+      "min": 1700.0,
+      "max": 1900.0
+    },
+    "young_modulus_gpa": {
+      "min": 18.0,
+      "max": 28.0
+    },
+    "cost": {
+      "min": 10.0,
+      "max": 18.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "low",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "composite",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

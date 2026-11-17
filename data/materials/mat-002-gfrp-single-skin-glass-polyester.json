@@ -1,0 +1,64 @@
+{
+  "id": "MAT-002",
+  "slug": "gfrp-single-skin-glass-polyester",
+  "name": "GFRP single skin (glass/polyester)",
+  "name_source": "GFRP – single skin (szkło/poliester)",
+  "category": "Composite",
+  "subcategory": null,
+  "marine_use": [
+    "Mniejsze jednostki",
+    "elementy"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": "Composite properties depend strongly on layup, fibre volume fraction and process."
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 4,
+    "density_kg_m3": {
+      "min": 1400.0,
+      "max": 1700.0
+    },
+    "young_modulus_gpa": {
+      "min": 12.0,
+      "max": 20.0
+    },
+    "cost": {
+      "min": 6.0,
+      "max": 11.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "composite",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

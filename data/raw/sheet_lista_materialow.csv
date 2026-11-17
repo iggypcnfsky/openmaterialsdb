@@ -1,0 +1,218 @@
+ID,Nazwa,Kategoria,Zastosowanie morskie,Gęstość (kg/m³),Moduł Younga (GPa),Koszt orientacyjny,Jednostka,Poziom pewności,Źródła / Notatki
+--- KOMPOZYTY ---
+MAT-001,GFRP – laminat typowy (szkło/epoksyd 0/90),Kompozyt,"Kadłuby, pokłady, nadbudówki",1600–1900,15–25,8–14,EUR/kg,Średni,Zależy od layupu i procesu
+MAT-002,GFRP – single skin (szkło/poliester),Kompozyt,"Mniejsze jednostki, elementy",1400–1700,12–20,6–11,EUR/kg,Średni
+MAT-003,CFRP – laminat węglowy,Kompozyt,"Wysokowytrzymałe elementy, maszty, foile",1500–1600,60–90,40–80,EUR/kg,Średni,"Drogi, wysoka sztywność"
+MAT-004,Sandwich GFRP + PVC core,Kompozyt,"Kadłuby, pokłady (sztywność)",—,—,20–40,EUR/m²,Niski,Cena zależy od grubości rdzenia
+--- RDZENIE ---
+MAT-010,Rdzeń PVC (Divinycell H60–H100),Rdzeń,Konstrukcje sandwich,60–100,0.05–0.1,15–25,EUR/m³,Średni,Standard w jachtach
+MAT-011,Rdzeń PET,Rdzeń,Sandwich (bardziej recyklingowalny),80–120,0.06–0.12,12–20,EUR/m³,Średni
+MAT-012,Rdzeń balsa,Rdzeń,Sandwich tradycyjny,150–200,3–5,10–18,EUR/m³,Średni,"Naturalny, dobry stosunek sztywności"
+MAT-013,Honeycomb Nomex / aramid,Rdzeń,Lekkie konstrukcje wysokowytrzymałe,48–96,—,40–80,EUR/m²,Niski,Drogi
+--- METALE ---
+MAT-020,Aluminium 5083,Metal,"Kadłuby aluminiowe, elementy konstrukcyjne",2660,71,4–7,EUR/kg,Wysoki,Stop morski
+MAT-021,Aluminium 6082,Metal,"Profile, elementy spawane",2700,70,3.5–6,EUR/kg,Wysoki
+MAT-022,Stal nierdzewna 316,Metal,"Okucia, elementy narażone na wodę",8000,193,5–9,EUR/kg,Wysoki,Dobra odporność morska
+MAT-023,Stal nierdzewna 316L,Metal,"Elementy spawane, okucia",8000,193,5.5–9.5,EUR/kg,Wysoki,Lepsza spawalność
+MAT-024,Stal węglowa (kadłubowa),Metal,Duże jednostki stalowe,7850,210,1.5–3,EUR/kg,Wysoki,Wymaga ochrony antykorozyjnej
+--- WŁÓKNA I ŻYWICE ---
+MAT-030,Włókno szklane E-glass,Włókno,Zbrojenie laminatów,2540,72,2–4,EUR/kg,Wysoki,Standard
+MAT-031,Włókno węglowe standard (HS),Włókno,Wysokowytrzymałe elementy,1800,230–240,25–45,EUR/kg,Średni
+MAT-032,Włókno bazaltowe,Włókno,Alternatywa dla szkła,2650,85–90,4–8,EUR/kg,Niski,Coraz popularniejsze
+MAT-033,Żywica epoksydowa,Żywica,Matryca laminatów wysokiej jakości,1100–1200,3–4,8–15,EUR/kg,Średni
+MAT-034,Żywica poliestrowa,Żywica,Matryca tańszych laminatów,1100–1200,3–3.5,3–6,EUR/kg,Średni
+MAT-035,Żywica winyloestrowa,Żywica,Lepsza odporność chemiczna,1100–1200,3.5–4,5–9,EUR/kg,Średni
+--- POWŁOKI I WYKOŃCZENIA ---
+MAT-040,Gelcoat,Powłoka,Warstwa zewnętrzna laminatów,1200–1400,—,6–10,EUR/kg,Średni
+MAT-041,Farba antyfoulingowa,Powłoka,Zabezpieczenie kadłuba,—,—,15–30,EUR/l,Średni
+MAT-042,Lakier / clear coat morski,Powłoka,Ochrona drewna i kompozytów,—,—,20–40,EUR/l,Niski
+--- DREWNO I INNE ---
+MAT-050,Teak,Drewno,"Pokłady, wykończenia",650–800,10–14,40–80,EUR/m²,Niski,Cena mocno zmienna
+MAT-051,Sklejka morska,Drewno,"Elementy wnętrz, mniejsze konstrukcje",500–700,8–12,15–30,EUR/m²,Średni
+MAT-052,Guma / uszczelki EPDM,Inne,Uszczelnienia,—,—,8–15,EUR/m,Niski
+
+Uwaga:,Lista startowa z podziałem na kategorie. Wartości orientacyjne. Zawsze weryfikować ze źródłem.
+--- DODATKOWE KOMPOZYTY ---
+MAT-060,GFRP – laminat CSM (chopped strand mat),Kompozyt,"Elementy pomocnicze, mniejsze jednostki",1400–1600,8–15,5–9,EUR/kg,Średni,"Tańszy, niższa wytrzymałość"
+MAT-061,GFRP – żelkot + laminat ręczny,Kompozyt,Kadłuby produkcyjne,1500–1700,12–18,7–12,EUR/kg,Średni
+MAT-062,CFRP – prepreg węglowy,Kompozyt,"Wysokiej klasy elementy, maszty",1550–1650,70–100,80–150,EUR/kg,Niski,"Drogi, kontrolowany proces"
+MAT-063,Hybrid glass-carbon laminate,Kompozyt,Optymalizacja koszt/sztywność,1600–1800,25–45,20–40,EUR/kg,Średni
+MAT-064,Flax fiber composite (natural),Kompozyt,"Eko-jachty, elementy niekonstrukcyjne",1300–1500,8–15,10–20,EUR/kg,Niski,Zrównoważony
+MAT-065,Basalt fiber laminate,Kompozyt,Alternatywa dla GFRP,1700–1900,20–30,12–22,EUR/kg,Niski
+--- DODATKOWE RDZENIE ---
+MAT-070,PVC foam H45,Rdzeń,Lekkie sandwich,45,0.03–0.05,12–18,EUR/m³,Średni
+MAT-071,PVC foam H130,Rdzeń,Wysokowytrzymałe sandwich,130,0.12–0.15,22–32,EUR/m³,Średni
+MAT-072,PET foam 100,Rdzeń,Recyklingowalne sandwich,100,0.08,14–22,EUR/m³,Średni
+MAT-073,Cork core,Rdzeń,Naturalne sandwich,120–160,—,15–25,EUR/m³,Niski
+MAT-074,Honeycomb polypropylene,Rdzeń,Tanie konstrukcje lekkie,80–120,—,8–15,EUR/m²,Średni
+--- DODATKOWE METALE ---
+MAT-080,Aluminium 5052,Metal,"Elementy formowane, zbiorniki",2680,70,3.5–6,EUR/kg,Wysoki
+MAT-081,Aluminium 6061,Metal,Elementy konstrukcyjne ogólne,2700,69,3–5.5,EUR/kg,Wysoki
+MAT-082,Brąz morski,Metal,"Śruby, okucia, elementy odporne",8800,100–110,12–20,EUR/kg,Średni
+MAT-083,Mosiądz,Metal,Okucia dekoracyjne,8500,100,6–10,EUR/kg,Średni
+MAT-084,Tytan Grade 2,Metal,"Elementy premium, odporne na korozję",4500,105,40–70,EUR/kg,Niski,Bardzo drogi
+MAT-085,Stal duplex,Metal,Wysoka odporność na korozję,7800,200,6–10,EUR/kg,Średni
+--- DODATKOWE WŁÓKNA ---
+MAT-090,Włókno aramidowe (Kevlar),Włókno,Odporność na uderzenia,1440,70–120,30–50,EUR/kg,Średni
+MAT-091,Włókno szklane S-glass,Włókno,Wyższa wytrzymałość niż E-glass,2490,87,8–14,EUR/kg,Średni
+MAT-092,Włókno węglowe HM (high modulus),Włókno,"Maszty, elementy sztywne",1800,350–400,50–90,EUR/kg,Niski
+MAT-093,Włókno lniane (flax),Włókno,Zrównoważone kompozyty,1500,50–70,6–12,EUR/kg,Niski
+--- DODATKOWE ŻYWICE ---
+MAT-100,Żywica epoksydowa bio-based,Żywica,Eko-laminaty,1100–1200,3–3.5,12–20,EUR/kg,Niski
+MAT-101,Żywica termoplastyczna (Elium),Żywica,Recyklingowalne kompozyty,1100,—,15–25,EUR/kg,Niski
+MAT-102,Żywica poliuretanowa,Żywica,Elementy specjalne,1100–1200,—,7–12,EUR/kg,Średni
+--- POWŁOKI I FARBY ---
+MAT-110,Farba epoksydowa morska,Powłoka,Ochrona metali i kompozytów,—,—,12–20,EUR/l,Średni
+MAT-111,Farba poliuretanowa,Powłoka,Wykończenie wysokiej jakości,—,—,18–30,EUR/l,Średni
+MAT-112,Primer epoksydowy,Powłoka,Podkład antykorozyjny,—,—,8–15,EUR/l,Średni
+MAT-113,Farba alkidowa morska,Powłoka,Tradycyjne wykończenie,—,—,6–12,EUR/l,Średni
+MAT-114,Powłoka antypoślizgowa,Powłoka,"Pokłady, schody",—,—,15–25,EUR/l,Niski
+--- DREWNO I NATURALNE ---
+MAT-120,Mahoni,Drewno,Wykończenia klasyczne,500–700,10–12,30–60,EUR/m²,Niski
+MAT-121,Dąb,Drewno,Elementy wnętrz,700–900,12–14,20–40,EUR/m²,Średni
+MAT-122,Bambus,Drewno,Alternatywa zrównoważona,600–800,10–15,15–30,EUR/m²,Niski
+MAT-123,Sklejka okume,Drewno,Konstrukcje morskie,500–600,8–10,12–25,EUR/m²,Średni
+--- IZOLACJE I USZCZELNIENIA ---
+MAT-130,Pianka PU zamkniętokomórkowa,Izolacja,Izolacja kadłuba,30–50,—,8–14,EUR/m³,Średni
+MAT-131,Wełna mineralna morska,Izolacja,Izolacja akustyczna/termiczna,30–80,—,5–10,EUR/m²,Średni
+MAT-132,Silikon morski,Uszczelnienie,Uszczelnienia elastyczne,—,—,10–18,EUR/kartusz,Średni
+MAT-133,Poliuretan uszczelniający,Uszczelnienie,Połączenia konstrukcyjne,—,—,8–15,EUR/kartusz,Średni
+--- SZKŁO I PRZEZROCZYSTE ---
+MAT-140,Szkło hartowane morskie,Szkło,"Okna, iluminatory",2500,70,40–80,EUR/m²,Średni
+MAT-141,Poliwęglan,Tworzywo,Lekkie przeszklenia,1200,2.3,15–30,EUR/m²,Średni
+MAT-142,Akryl (PMMA),Tworzywo,"Okna, elementy przezroczyste",1190,3.2,12–25,EUR/m²,Średni
+--- ELEMENTY SPECJALNE ---
+MAT-150,Anoda cynkowa,Ochrona,Ochrona katodowa,7100,—,5–10,EUR/kg,Wysoki
+MAT-151,Anoda aluminiowa,Ochrona,Ochrona katodowa (aluminium),2700,—,4–8,EUR/kg,Wysoki
+MAT-152,Lina Dyneema,Takielunek,Liny wysokowytrzymałe,970,—,15–40,EUR/m,Średni
+MAT-153,Lina poliestrowa,Takielunek,Liny standardowe,1380,—,2–6,EUR/m,Średni
+MAT-154,Stal nierdzewna 304,Metal,Elementy mniej narażone,8000,193,4–7,EUR/kg,Wysoki,Gorsza odporność niż 316
+MAT-155,Miedź,Metal,"Elementy specjalne, okablowanie",8960,110,8–14,EUR/kg,Średni
+--- WIĘCEJ KOMPOZYTÓW I RDZENI ---
+MAT-160,Infusion GFRP,Kompozyt,Kadłuby infuzyjne,1550–1750,18–28,9–16,EUR/kg,Średni,Lepsza jakość niż ręczny
+MAT-161,Vacuum bagged laminate,Kompozyt,Elementy wysokiej jakości,1600–1800,16–26,10–18,EUR/kg,Średni
+MAT-162,Coremat,Rdzeń,Cienkie warstwy dystansowe,—,—,5–10,EUR/m²,Średni
+MAT-163,Sorichmat,Rdzeń,Dystans w laminatach,—,—,4–8,EUR/m²,Średni
+--- DODATKOWE POWŁOKI ---
+MAT-170,Farba bottom paint hard,Powłoka,Antifouling twardy,—,—,20–35,EUR/l,Średni
+MAT-171,Farba bottom paint ablative,Powłoka,Antifouling zmywalny,—,—,18–32,EUR/l,Średni
+MAT-172,Varnish morski,Powłoka,Ochrona drewna,—,—,15–28,EUR/l,Średni
+MAT-173,Teak oil / sealer,Powłoka,Konserwacja teaku,—,—,10–20,EUR/l,Niski
+--- WIĘCEJ METALI I OKUĆ ---
+MAT-180,Stal nierdzewna 2205 duplex,Metal,Wysoka wytrzymałość + korozja,7800,200,7–12,EUR/kg,Średni
+MAT-181,Monel,Metal,Elementy bardzo odporne,8800,180,25–45,EUR/kg,Niski,Drogi
+MAT-182,Aluminium 5086,Metal,"Kadłuby, dobra spawalność",2660,71,4–7,EUR/kg,Wysoki
+MAT-183,Brąz fosforowy,Metal,"Łożyska, elementy ślizgowe",8800,—,10–18,EUR/kg,Średni
+--- NATURALNE I EKO ---
+MAT-190,Korek naturalny,Naturalny,"Izolacja, elementy",120–200,—,8–15,EUR/m²,Niski
+MAT-191,Włókno konopne,Włókno,Kompozyty naturalne,1500,40–60,5–10,EUR/kg,Niski
+MAT-192,Żywica bio-poliestrowa,Żywica,Eko-matryca,1100,—,6–12,EUR/kg,Niski
+MAT-193,Pianka bio-based,Rdzeń,Zrównoważone sandwich,50–100,—,18–30,EUR/m³,Niski
+--- ELEMENTY TAKIELUNKU I DECK ---
+MAT-200,Stal nierdzewna pręty,Metal,"Relingi, maszty pomocnicze",8000,193,5–9,EUR/kg,Wysoki
+MAT-201,Aluminium anodowane,Metal,"Profile, relingi",2700,70,5–9,EUR/kg,Średni
+MAT-202,Tekstylia deck (EVA),Pokład,Pokłady syntetyczne,—,—,30–60,EUR/m²,Średni
+MAT-203,Cork decking,Pokład,Alternatywa dla teaku,—,—,40–70,EUR/m²,Niski
+MAT-204,Synthetic teak,Pokład,Pokłady bezobsługowe,—,—,50–90,EUR/m²,Średni
+--- WIĘCEJ IZOLACJI ---
+MAT-210,Aerogel insulation,Izolacja,Cienka izolacja wysokiej klasy,—,—,40–80,EUR/m²,Niski,Drogi
+MAT-211,Pianka XPS,Izolacja,Izolacja sztywna,30–45,—,6–12,EUR/m²,Średni
+MAT-212,Pianka EPS,Izolacja,Tania izolacja,15–30,—,3–7,EUR/m²,Średni
+--- KOMPOZYTY SPECJALNE ---
+MAT-220,Kevlar laminate,Kompozyt,Odporność balistyczna / uderzenia,1400–1600,30–50,40–70,EUR/kg,Niski
+MAT-221,Carbon-Kevlar hybrid,Kompozyt,Sztywność + odporność,1500–1700,40–60,50–90,EUR/kg,Niski
+MAT-222,Glass-basalt hybrid,Kompozyt,Lepsza odporność chemiczna,1700–1900,18–28,10–18,EUR/kg,Niski
+--- DODATKOWE TWORZYWA ---
+MAT-230,HDPE,Tworzywo,"Elementy odporne, zbiorniki",950,0.8,2–4,EUR/kg,Wysoki
+MAT-231,PVC sztywne,Tworzywo,"Rury, elementy",1400,3,2–5,EUR/kg,Wysoki
+MAT-232,Nylon (PA),Tworzywo,Elementy mechaniczne,1150,2–3,4–8,EUR/kg,Średni
+MAT-233,PTFE (Teflon),Tworzywo,"Łożyska, uszczelnienia",2200,0.5,20–40,EUR/kg,Średni
+--- PODSUMOWANIE ---
+,Dodano ~80 dodatkowych pozycji (razem z poprzednimi ~110),Różne kategorie morskie,,,,,,,Wartości orientacyjne – wymaga weryfikacji
+--- KOMPOZYTY ZAAWANSOWANE ---
+MAT-240,CFRP prepreg unidirectional,Kompozyt,"Maszty, foile, elementy nośne",1580,120–140,100–180,EUR/kg,Niski,Wysoka kontrola procesu
+MAT-241,GFRP infusion with foam core,Kompozyt,Kadłuby produkcyjne,—,—,25–45,EUR/m²,Średni,Cena zależy od grubości
+MAT-242,Carbon fiber sandwich,Kompozyt,"Lekkie pokłady, elementy sztywne",—,—,60–120,EUR/m²,Niski
+MAT-243,Recycled carbon laminate,Kompozyt,Eko-elementy,1500–1650,40–60,25–45,EUR/kg,Niski
+MAT-244,Thermoplastic composite (TPC),Kompozyt,Recyklingowalne konstrukcje,1400–1600,20–40,30–55,EUR/kg,Niski
+MAT-245,Self-healing composite,Kompozyt,Elementy eksperymentalne,—,—,50–90,EUR/kg,Niski
+--- RDZENIE SPECJALNE ---
+MAT-250,PVC foam H200,Rdzeń,Wysokie obciążenia,200,0.2,30–45,EUR/m³,Średni
+MAT-251,SAN foam,Rdzeń,Alternatywa dla PVC,60–100,0.05–0.1,18–28,EUR/m³,Niski
+MAT-252,Phenolic foam,Rdzeń,Odporność ogniowa,40–80,—,20–35,EUR/m³,Niski
+MAT-253,Aluminum honeycomb,Rdzeń,Lekkie panele,40–80,—,25–50,EUR/m²,Średni
+MAT-254,Nomex honeycomb 48kg,Rdzeń,Lotnicze / premium marine,48,—,50–90,EUR/m²,Niski
+--- METALE SPECJALNE ---
+MAT-260,Aluminium 5754,Metal,Elementy formowane,2670,70,3.5–6,EUR/kg,Wysoki
+MAT-261,Aluminium 7075,Metal,Elementy wysokowytrzymałe,2810,71,6–10,EUR/kg,Średni,Mniej odporny na korozję
+MAT-262,Stal nierdzewna 904L,Metal,Wysoka odporność na kwasy,8000,190,12–20,EUR/kg,Średni
+MAT-263,Inconel,Metal,Elementy ekstremalne,8400,200,40–70,EUR/kg,Niski,Bardzo drogi
+MAT-264,Miedź-nikiel 90/10,Metal,"Rury, elementy morskie",8900,—,10–16,EUR/kg,Średni
+MAT-265,Miedź-nikiel 70/30,Metal,Wyższa odporność,8900,—,12–18,EUR/kg,Średni
+--- WŁÓKNA I TKANINY ---
+MAT-270,Carbon fiber twill 200g,Włókno,Laminaty wizualne,—,—,30–50,EUR/m²,Średni
+MAT-271,Carbon fiber UD 300g,Włókno,Elementy nośne,—,—,35–60,EUR/m²,Średni
+MAT-272,Glass fiber biaxial 600g,Włókno,Standardowe laminaty,—,—,4–8,EUR/m²,Wysoki
+MAT-273,Glass fiber triaxial,Włókno,Kadłuby,—,—,6–10,EUR/m²,Średni
+MAT-274,Aramid fabric,Włókno,Odporność na przebicie,—,—,25–45,EUR/m²,Średni
+MAT-275,Hybrid carbon-glass fabric,Włókno,Kompromis koszt/właściwości,—,—,15–30,EUR/m²,Średni
+--- ŻYWICE I SYSTEMY ---
+MAT-280,Epoxy infusion resin,Żywica,Procesy infuzyjne,1100,3.2,9–16,EUR/kg,Średni
+MAT-281,Epoxy laminating resin,Żywica,Laminowanie ręczne,1100,3.0,7–13,EUR/kg,Średni
+MAT-282,Polyester DCPD,Żywica,Niski skurcz,1100,—,4–7,EUR/kg,Średni
+MAT-283,Vinyl ester infusion,Żywica,Lepsza odporność,1100,—,6–11,EUR/kg,Średni
+MAT-284,UV-resistant gelcoat,Żywica,Zewnętrzne powierzchnie,1200,—,8–14,EUR/kg,Średni
+--- POWŁOKI ZAAWANSOWANE ---
+MAT-290,Ceramic coating,Powłoka,Ochrona przed UV i zarysowaniami,—,—,40–80,EUR/l,Niski
+MAT-291,Graphene-enhanced coating,Powłoka,Wyższa trwałość,—,—,50–90,EUR/l,Niski
+MAT-292,Antifouling copper-free,Powłoka,Eko-antifouling,—,—,25–40,EUR/l,Średni
+MAT-293,Foul-release coating,Powłoka,Silikonowe antifouling,—,—,30–50,EUR/l,Niski
+MAT-294,Clear coat UV marine,Powłoka,Ochrona carbonu i drewna,—,—,25–45,EUR/l,Średni
+--- DECK I POKŁADY ---
+MAT-300,Flexiteek,Pokład,Syntetyczny teak,—,—,60–100,EUR/m²,Średni
+MAT-301,PlasTEAK,Pokład,Alternatywa teaku,—,—,50–90,EUR/m²,Średni
+MAT-302,Cork deck tiles,Pokład,Naturalny wygląd,—,—,35–65,EUR/m²,Niski
+MAT-303,EVA foam decking,Pokład,Tani pokład syntetyczny,—,—,20–40,EUR/m²,Średni
+MAT-304,Non-skid paint,Pokład,Powłoka antypoślizgowa,—,—,12–22,EUR/l,Średni
+--- IZOLACJE I AKUSTYKA ---
+MAT-310,Mass loaded vinyl,Izolacja,Izolacja akustyczna,—,—,15–30,EUR/m²,Średni
+MAT-311,Closed cell neoprene,Izolacja,Uszczelnienia i izolacja,—,—,10–20,EUR/m²,Średni
+MAT-312,Reflective insulation,Izolacja,Odbicie ciepła,—,—,5–12,EUR/m²,Niski
+MAT-313,Sound deadening mats,Izolacja,Redukcja hałasu,—,—,8–18,EUR/m²,Średni
+--- SZKŁO I PRZEZROCZYSTE ZAAWANSOWANE ---
+MAT-320,Laminated marine glass,Szkło,Okna bezpieczeństwa,2500,70,60–120,EUR/m²,Średni
+MAT-321,Acrylic dome,Tworzywo,Iluminatory,1190,3.2,40–80,EUR/szt,Niski
+MAT-322,Polycarbonate multiwall,Tworzywo,Lekkie przeszklenia,—,—,20–40,EUR/m²,Średni
+--- TAKIELUNEK I LINY ---
+MAT-330,Dyneema SK78,Takielunek,Liny wysokiej klasy,—,—,20–50,EUR/m,Średni
+MAT-331,Dyneema SK99,Takielunek,Najwyższa wytrzymałość,—,—,30–70,EUR/m,Niski
+MAT-332,Polyester double braid,Takielunek,Standardowe liny,—,—,3–8,EUR/m,Wysoki
+MAT-333,Stainless wire 1x19,Takielunek,"Sztagi, wanty",—,—,4–10,EUR/m,Wysoki
+MAT-334,Rod rigging,Takielunek,Wysokiej klasy olinowanie,—,—,15–40,EUR/m,Średni
+--- OCHRONA I ANODY ---
+MAT-340,Zinc anode hull,Ochrona,Ochrona kadłuba,—,—,15–30,EUR/szt,Wysoki
+MAT-341,Aluminum anode,Ochrona,Dla aluminium,—,—,12–25,EUR/szt,Wysoki
+MAT-342,Magnesium anode,Ochrona,Woda słodka,—,—,10–20,EUR/szt,Średni
+--- ELEMENTY WNĘTRZ ---
+MAT-350,Marine plywood 12mm,Drewno,"Wnętrza, meble",—,—,20–35,EUR/m²,Średni
+MAT-351,Teak veneer,Drewno,Wykończenia,—,—,25–50,EUR/m²,Niski
+MAT-352,Cork wall panels,Naturalny,Izolacja i estetyka,—,—,15–30,EUR/m²,Niski
+MAT-353,Marine grade MDF,Drewno,Elementy wnętrz,—,—,12–22,EUR/m²,Średni
+--- USZCZELNIENIA I KLEJE ---
+MAT-360,Structural epoxy adhesive,Klej,Połączenia konstrukcyjne,—,—,15–30,EUR/kg,Średni
+MAT-361,Methacrylate adhesive,Klej,Szybkie połączenia,—,—,20–40,EUR/kg,Średni
+MAT-362,Butyl tape,Uszczelnienie,"Okna, iluminatory",—,—,2–5,EUR/m,Wysoki
+MAT-363,Closed cell foam tape,Uszczelnienie,Uszczelnienia elastyczne,—,—,1–3,EUR/m,Wysoki
+--- WIĘCEJ TWORZYW I SPECJALNYCH ---
+MAT-370,UHMWPE,Tworzywo,"Elementy ślizgowe, odporne",940,0.7,5–10,EUR/kg,Średni
+MAT-371,Delrin (POM),Tworzywo,Elementy precyzyjne,1410,3,6–12,EUR/kg,Średni
+MAT-372,Marine grade rubber,Guma,"Odbojnice, uszczelki",—,—,8–15,EUR/kg,Średni
+MAT-373,EPDM rubber sheet,Guma,Uszczelnienia,—,—,6–12,EUR/m²,Średni
+MAT-374,Neoprene sheet,Guma,Izolacja i uszczelnienia,—,—,10–18,EUR/m²,Średni
+--- DODATKOWE EKO I NOWOCZESNE ---
+MAT-380,Recycled PET core,Rdzeń,Zrównoważone sandwich,80–120,—,15–25,EUR/m³,Niski
+MAT-381,Bio-based gelcoat,Powłoka,Eko-wykończenie,—,—,10–18,EUR/kg,Niski
+MAT-382,Hemp fiber laminate,Kompozyt,Naturalne kompozyty,1300–1500,10–18,12–22,EUR/kg,Niski
+MAT-383,Mycelium composite,Naturalny,Eksperymentalne,—,—,15–30,EUR/kg,Niski
+--- PODSUMOWANIE PARTII ---
+,Dodano kolejne ~90 pozycji,Łącznie baza ma ponad 200 materiałów,,,,,,,"Wartości orientacyjne, wymagają weryfikacji"

@@ -1,0 +1,57 @@
+{
+  "id": "MAT-313",
+  "slug": "sound-deadening-mats",
+  "name": "Sound deadening mats",
+  "name_source": "Sound deadening mats",
+  "category": "Insulation",
+  "subcategory": null,
+  "marine_use": [
+    "Redukcja hałasu"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 181,
+    "density_kg_m3": null,
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 8.0,
+      "max": 18.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "insulation",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

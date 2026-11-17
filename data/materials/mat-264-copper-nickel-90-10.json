@@ -1,0 +1,115 @@
+{
+  "id": "MAT-264",
+  "slug": "copper-nickel-90-10",
+  "name": "Copper-nickel 90/10",
+  "name_source": "Miedź-nikiel 90/10",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Rury",
+    "elementy morskie"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 120.0,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 3.0,
+      "max": 34.0,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.34,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 290.0,
+      "max": 570.0,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 63.0,
+      "max": 270.0,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 220.0,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 44.0,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 17.0,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 8900.0,
+      "source": "mif-uns-c70600-90-10-copper-nickel"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 150,
+    "density_kg_m3": {
+      "value": 8900.0
+    },
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 10.0,
+      "max": 16.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-uns-c70600-90-10-copper-nickel",
+        "label": "MakeItFrom.com – UNS C70600 90/10 copper-nickel",
+        "url": "https://www.makeitfrom.com/material-properties/UNS-C70600-CW352H-Copper-Nickel",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

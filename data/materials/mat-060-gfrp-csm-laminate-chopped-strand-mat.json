@@ -1,0 +1,86 @@
+{
+  "id": "MAT-060",
+  "slug": "gfrp-csm-laminate-chopped-strand-mat",
+  "name": "GFRP CSM laminate (chopped strand mat)",
+  "name_source": "GFRP – laminat CSM (chopped strand mat)",
+  "category": "Composite",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy pomocnicze",
+    "mniejsze jednostki"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": "Composite properties depend strongly on layup, fibre volume fraction and process."
+  },
+  "cost": [
+    {
+      "unit": "EUR/m²",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-450g-emulsion-bound-chopped-strand-mat-1250mm",
+      "confidence": "medium",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 2.24,
+      "max": 3.16,
+      "value": 2.7,
+      "note": "€2.80–3.95 per linear metre ÷ 1.25 m width."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 36,
+    "density_kg_m3": {
+      "min": 1400.0,
+      "max": 1600.0
+    },
+    "young_modulus_gpa": {
+      "min": 8.0,
+      "max": 15.0
+    },
+    "cost": {
+      "min": 5.0,
+      "max": 9.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": "Tańszy, niższa wytrzymałość"
+  },
+  "metadata": {
+    "tags": [
+      "composite",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "ec-450g-emulsion-bound-chopped-strand-mat-1250mm",
+        "label": "Easy Composites EU – 450 g/m² emulsion-bound chopped strand mat, 1.25 m",
+        "url": "https://www.easycomposites.eu/450g-emulsion-bound-chopped-strand-mat-1250mm",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

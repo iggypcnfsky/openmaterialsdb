@@ -1,0 +1,63 @@
+{
+  "id": "MAT-122",
+  "slug": "bamboo",
+  "name": "Bamboo",
+  "name_source": "Bambus",
+  "category": "Wood",
+  "subcategory": null,
+  "marine_use": [
+    "Alternatywa zrównoważona"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 73,
+    "density_kg_m3": {
+      "min": 600.0,
+      "max": 800.0
+    },
+    "young_modulus_gpa": {
+      "min": 10.0,
+      "max": 15.0
+    },
+    "cost": {
+      "min": 15.0,
+      "max": 30.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "low",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "wood"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

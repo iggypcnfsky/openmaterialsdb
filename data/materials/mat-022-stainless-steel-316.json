@@ -1,0 +1,198 @@
+{
+  "id": "MAT-022",
+  "slug": "stainless-steel-316",
+  "name": "Stainless steel 316",
+  "name_source": "Stal nierdzewna 316",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Okucia",
+    "elementy narażone na wodę"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.669,
+          0.639,
+          0.598
+        ],
+        "srgb": [
+          0.8373,
+          0.8204,
+          0.7966
+        ],
+        "hex": "#d6d1cb",
+        "source": "pb-stainless-steel"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-stainless-steel"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-stainless-steel",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-stainless-steel"
+      },
+      "specular_color": {
+        "linear": [
+          0.804,
+          0.791,
+          0.714
+        ],
+        "source": "pb-stainless-steel",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          2.22981,
+          4.21948,
+          2.04109,
+          3.64081,
+          2.15682,
+          3.07445
+        ],
+        "source": "pb-stainless-steel",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/stainless-steel.jpeg",
+    "pb_name": "Stainless Steel",
+    "proxy_note": "Generic stainless steel optical data.",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=stainless_steel",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/w/index.php?title=Stainless_steel&oldid=1274079682"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "hardness_brinell": {
+      "unit": "HB",
+      "min": 160.0,
+      "max": 360.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 200.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 8.0,
+      "max": 55.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.28,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 520.0,
+      "max": 1180.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 230.0,
+      "max": 850.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 590.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 15.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 16.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 7900.0,
+      "source": "mif-aisi-316-stainless-all-conditions",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 15,
+    "density_kg_m3": {
+      "value": 8000.0
+    },
+    "young_modulus_gpa": {
+      "value": 193.0
+    },
+    "cost": {
+      "min": 5.0,
+      "max": 9.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "high",
+    "notes": "Dobra odporność morska"
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-aisi-316-stainless-all-conditions",
+        "label": "MakeItFrom.com – AISI 316 stainless (all conditions)",
+        "url": "https://www.makeitfrom.com/material-properties/AISI-316-S31600-Stainless-Steel",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-stainless-steel",
+        "label": "Physically Based – Stainless Steel",
+        "url": "https://physicallybased.info/?search=Stainless+Steel",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

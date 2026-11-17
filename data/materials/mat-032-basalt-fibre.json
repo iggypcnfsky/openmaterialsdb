@@ -1,0 +1,62 @@
+{
+  "id": "MAT-032",
+  "slug": "basalt-fibre",
+  "name": "Basalt fibre",
+  "name_source": "Włókno bazaltowe",
+  "category": "Fibre",
+  "subcategory": null,
+  "marine_use": [
+    "Alternatywa dla szkła"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 21,
+    "density_kg_m3": {
+      "value": 2650.0
+    },
+    "young_modulus_gpa": {
+      "min": 85.0,
+      "max": 90.0
+    },
+    "cost": {
+      "min": 4.0,
+      "max": 8.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "low",
+    "notes": "Coraz popularniejsze"
+  },
+  "metadata": {
+    "tags": [
+      "fibre",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "MAT-383",
+  "slug": "mycelium-composite",
+  "name": "Mycelium composite",
+  "name_source": "Mycelium composite",
+  "category": "Natural",
+  "subcategory": null,
+  "marine_use": [
+    "Eksperymentalne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 216,
+    "density_kg_m3": null,
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 15.0,
+      "max": 30.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "low",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "natural"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

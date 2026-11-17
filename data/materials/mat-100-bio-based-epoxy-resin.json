@@ -1,0 +1,85 @@
+{
+  "id": "MAT-100",
+  "slug": "bio-based-epoxy-resin",
+  "name": "Bio-based epoxy resin",
+  "name_source": "Żywica epoksydowa bio-based",
+  "category": "Resin",
+  "subcategory": null,
+  "marine_use": [
+    "Eko-laminaty"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [
+    {
+      "unit": "EUR/kg",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-lb2-epoxy-laminating-resin",
+      "confidence": "medium",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 17.49,
+      "max": 23.75,
+      "value": 20.62,
+      "note": "Largest kit (from-price) to 1 kg kit."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 61,
+    "density_kg_m3": {
+      "min": 1100.0,
+      "max": 1200.0
+    },
+    "young_modulus_gpa": {
+      "min": 3.0,
+      "max": 3.5
+    },
+    "cost": {
+      "min": 12.0,
+      "max": 20.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "low",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "resin"
+    ],
+    "sources": [
+      {
+        "id": "ec-lb2-epoxy-laminating-resin",
+        "label": "Easy Composites EU – LB2 epoxy laminating bio resin (~35% plant-derived)",
+        "url": "https://www.easycomposites.eu/LB2-epoxy-laminating-resin",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "MAT-035",
+  "slug": "vinyl-ester-resin",
+  "name": "Vinyl ester resin",
+  "name_source": "Żywica winyloestrowa",
+  "category": "Resin",
+  "subcategory": null,
+  "marine_use": [
+    "Lepsza odporność chemiczna"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [
+    {
+      "unit": "EUR/kg",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-ve140-fuel-resistant-vinylester-fuel-tank-resin",
+      "confidence": "medium",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 17.1,
+      "max": 24.75,
+      "value": 20.93,
+      "note": "Largest pack (from-price) to 1 kg; specialty fuel-tank grade."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 24,
+    "density_kg_m3": {
+      "min": 1100.0,
+      "max": 1200.0
+    },
+    "young_modulus_gpa": {
+      "min": 3.5,
+      "max": 4.0
+    },
+    "cost": {
+      "min": 5.0,
+      "max": 9.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "resin"
+    ],
+    "sources": [
+      {
+        "id": "ec-ve140-fuel-resistant-vinylester-fuel-tank-resin",
+        "label": "Easy Composites EU – VE140 fuel-resistant vinylester resin",
+        "url": "https://www.easycomposites.eu/ve140-fuel-resistant-vinylester-fuel-tank-resin",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

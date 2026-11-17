@@ -1,0 +1,515 @@
+[
+  {
+    "id": "diab-divinycell-h",
+    "label": "Diab Divinycell H technical data sheet, rev 26 SI (May 2026)",
+    "url": "https://diab-media.azureedge.net/eyajkrhd/diab-divinycell-h-may-2026-rev26-si.pdf",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-188g-plain-weave-carbon-kevlar",
+    "label": "Easy Composites EU – 188 g/m² plain weave carbon/Kevlar hybrid cloth, 1 m",
+    "url": "https://www.easycomposites.eu/188g-plain-weave-carbon-kevlar",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-200g-22-twill-woven-glass-cloth",
+    "label": "Easy Composites EU – 200 g/m² 2x2 twill woven E-glass cloth, 1 m wide",
+    "url": "https://www.easycomposites.eu/200g-22-twill-woven-glass-cloth",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-240g-22-twill-3k-carbon-fibre-cloth",
+    "label": "Easy Composites EU – 240 g/m² 2x2 twill 3k carbon cloth, 1.25 m",
+    "url": "https://www.easycomposites.eu/240g-22-twill-3k-carbon-fibre-cloth",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-450g-emulsion-bound-chopped-strand-mat-1250mm",
+    "label": "Easy Composites EU – 450 g/m² emulsion-bound chopped strand mat, 1.25 m",
+    "url": "https://www.easycomposites.eu/450g-emulsion-bound-chopped-strand-mat-1250mm",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-600g-biaxial-glass-cloth",
+    "label": "Easy Composites EU – 600 g/m² ±45° biaxial glass cloth, 1.27 m wide",
+    "url": "https://www.easycomposites.eu/600g-biaxial-glass-cloth",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-clearpol-iso-npg-clear-polyester-gelcoat",
+    "label": "Easy Composites EU – GCX clear ISO/NPG polyester spray gelcoat",
+    "url": "https://www.easycomposites.eu/clearpol-iso-npg-clear-polyester-gelcoat",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-easycell75-closed-cell-pvc-foam",
+    "label": "Easy Composites EU – EasyCell75 closed-cell PVC foam, 75 kg/m³",
+    "url": "https://www.easycomposites.eu/easycell75-closed-cell-pvc-foam",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-el2-epoxy-laminating-resin",
+    "label": "Easy Composites EU – EL2 epoxy laminating resin",
+    "url": "https://www.easycomposites.eu/el2-epoxy-laminating-resin",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-end-grain-balsa",
+    "label": "Easy Composites EU – End-grain balsa core, 150 kg/m³",
+    "url": "https://www.easycomposites.eu/end-grain-balsa",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-high-quality-gp-polyester-resin",
+    "label": "Easy Composites EU – GPX premium polyester laminating resin",
+    "url": "https://www.easycomposites.eu/high-quality-gp-polyester-resin",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-in2-epoxy-infusion-resin",
+    "label": "Easy Composites EU – IN2 epoxy infusion resin",
+    "url": "https://www.easycomposites.eu/in2-epoxy-infusion-resin",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-lb2-epoxy-laminating-resin",
+    "label": "Easy Composites EU – LB2 epoxy laminating bio resin (~35% plant-derived)",
+    "url": "https://www.easycomposites.eu/LB2-epoxy-laminating-resin",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "ec-ve140-fuel-resistant-vinylester-fuel-tank-resin",
+    "label": "Easy Composites EU – VE140 fuel-resistant vinylester resin",
+    "url": "https://www.easycomposites.eu/ve140-fuel-resistant-vinylester-fuel-tank-resin",
+    "type": "cost",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-5052-aluminium-all-tempers",
+    "label": "MakeItFrom.com – 5052 aluminium (all tempers)",
+    "url": "https://www.makeitfrom.com/material-properties/5052-AlMg2.5-3.3523-A95052-Aluminum",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-5083-aluminium-all-tempers",
+    "label": "MakeItFrom.com – 5083 aluminium (all tempers)",
+    "url": "https://www.makeitfrom.com/material-properties/5083-AlMg4.5Mn0.7-3.3547-N8-A95083-Aluminum",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-5086-aluminium-all-tempers",
+    "label": "MakeItFrom.com – 5086 aluminium (all tempers)",
+    "url": "https://www.makeitfrom.com/material-properties/5086-AlMg4-3.3545-A95086-Aluminum",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-5754-aluminium-all-tempers",
+    "label": "MakeItFrom.com – 5754 aluminium (all tempers)",
+    "url": "https://www.makeitfrom.com/material-properties/5754-AlMg3-3.3535-A95754-Aluminum",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-6061-aluminium-all-tempers",
+    "label": "MakeItFrom.com – 6061 aluminium (all tempers)",
+    "url": "https://www.makeitfrom.com/material-properties/6061-AlMg1SiCu-3.3214-H20-A96061-Aluminum",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-6082-aluminium-all-tempers",
+    "label": "MakeItFrom.com – 6082 aluminium (all tempers)",
+    "url": "https://www.makeitfrom.com/material-properties/6082-AlSi1MgMn-3.2315-H30-A96082-Aluminum",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-7075-aluminium-all-tempers",
+    "label": "MakeItFrom.com – 7075 aluminium (all tempers)",
+    "url": "https://www.makeitfrom.com/material-properties/7075-AlZn5.5MgCu-3.4365-2L95-A97075-Aluminum",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-acetal-homopolymer-pom-h",
+    "label": "MakeItFrom.com – Acetal homopolymer (POM-H)",
+    "url": "https://www.makeitfrom.com/material-properties/Acetal-Homopolymer-POM-H",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-aisi-304-stainless-all-conditions",
+    "label": "MakeItFrom.com – AISI 304 stainless (all conditions)",
+    "url": "https://www.makeitfrom.com/material-properties/AISI-304-S30400-Stainless-Steel",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-aisi-316-stainless-all-conditions",
+    "label": "MakeItFrom.com – AISI 316 stainless (all conditions)",
+    "url": "https://www.makeitfrom.com/material-properties/AISI-316-S31600-Stainless-Steel",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-aisi-316l-stainless-all-conditions",
+    "label": "MakeItFrom.com – AISI 316L stainless (all conditions)",
+    "url": "https://www.makeitfrom.com/material-properties/AISI-316L-S31603-Stainless-Steel",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-astm-a36-s275-structural-carbon-steel",
+    "label": "MakeItFrom.com – ASTM A36 / S275 structural carbon steel",
+    "url": "https://www.makeitfrom.com/material-properties/ASTM-A36-SS400-S275-Structural-Carbon-Steel",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-cork-natural",
+    "label": "MakeItFrom.com – Cork (natural)",
+    "url": "https://www.makeitfrom.com/material-properties/Cork",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-epoxy-generic-cast-thermoset",
+    "label": "MakeItFrom.com – Epoxy (generic cast thermoset)",
+    "url": "https://www.makeitfrom.com/material-properties/Epoxy",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-grade-2-titanium-r50400",
+    "label": "MakeItFrom.com – Grade 2 titanium (R50400)",
+    "url": "https://www.makeitfrom.com/material-properties/Grade-2-3.7035-R50400-Titanium",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-grey-cast-iron-generic",
+    "label": "MakeItFrom.com – Grey cast iron (generic)",
+    "url": "https://www.makeitfrom.com/material-properties/Grey-Cast-Iron",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-hdpe",
+    "label": "MakeItFrom.com – HDPE",
+    "url": "https://www.makeitfrom.com/material-properties/High-Density-Polyethylene-HDPE",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-inconel-nickel-alloy-625-n06625",
+    "label": "MakeItFrom.com – Inconel / nickel alloy 625 (N06625)",
+    "url": "https://www.makeitfrom.com/material-properties/Nickel-Alloy-625-N06625-NA21",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-monel-400-n04400",
+    "label": "MakeItFrom.com – Monel 400 (N04400)",
+    "url": "https://www.makeitfrom.com/material-properties/Monel-400-NiCu30Fe-2.4360-N04400-NA13",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-pmma-acrylic",
+    "label": "MakeItFrom.com – PMMA (acrylic)",
+    "url": "https://www.makeitfrom.com/material-properties/Polymethylmethacrylate-PMMA-Acrylic",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-polyamide-6-nylon-6",
+    "label": "MakeItFrom.com – Polyamide 6 (nylon 6)",
+    "url": "https://www.makeitfrom.com/material-properties/Polyamide-PA-Nylon-6",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-polycarbonate-pc",
+    "label": "MakeItFrom.com – Polycarbonate (PC)",
+    "url": "https://www.makeitfrom.com/material-properties/Polycarbonate-PC",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-ptfe",
+    "label": "MakeItFrom.com – PTFE",
+    "url": "https://www.makeitfrom.com/material-properties/Polytetrafluoroethylene-PTFE",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-rigid-pvc-upvc",
+    "label": "MakeItFrom.com – Rigid PVC (uPVC)",
+    "url": "https://www.makeitfrom.com/material-properties/Unplasticized-Rigid-Polyvinyl-Chloride-uPVC-PVC-U",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uhmw-pe",
+    "label": "MakeItFrom.com – UHMW-PE",
+    "url": "https://www.makeitfrom.com/material-properties/Ultra-High-Molecular-Weight-Polyethylene-UHMW-PE",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uns-c11000-etp-copper",
+    "label": "MakeItFrom.com – UNS C11000 ETP copper",
+    "url": "https://www.makeitfrom.com/material-properties/UNS-C11000-CW004A-Electrolytic-Tough-Pitch-Copper",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uns-c26000-cartridge-brass-70-30",
+    "label": "MakeItFrom.com – UNS C26000 cartridge brass (70/30)",
+    "url": "https://www.makeitfrom.com/material-properties/UNS-C26000-CW505L-Cartridge-Brass",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uns-c51000-phosphor-bronze",
+    "label": "MakeItFrom.com – UNS C51000 phosphor bronze",
+    "url": "https://www.makeitfrom.com/material-properties/UNS-C51000-CW451K-Phosphor-Bronze",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uns-c65500-high-silicon-bronze",
+    "label": "MakeItFrom.com – UNS C65500 high-silicon bronze",
+    "url": "https://www.makeitfrom.com/material-properties/UNS-C65500-CW116C-Silicon-Bronze",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uns-c70600-90-10-copper-nickel",
+    "label": "MakeItFrom.com – UNS C70600 90/10 copper-nickel",
+    "url": "https://www.makeitfrom.com/material-properties/UNS-C70600-CW352H-Copper-Nickel",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uns-c71500-70-30-copper-nickel",
+    "label": "MakeItFrom.com – UNS C71500 70/30 copper-nickel",
+    "url": "https://www.makeitfrom.com/material-properties/UNS-C71500-CW354H-Copper-Nickel",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uns-n08904-904l-superaustenitic-stainless",
+    "label": "MakeItFrom.com – UNS N08904 (904L) superaustenitic stainless",
+    "url": "https://www.makeitfrom.com/material-properties/UNS-N08904-904L-Stainless-Steel",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-uns-s32205-2205-duplex-stainless",
+    "label": "MakeItFrom.com – UNS S32205 (2205) duplex stainless",
+    "url": "https://www.makeitfrom.com/material-properties/UNS-S32205-Stainless-Steel",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "mif-unsaturated-polyester-generic",
+    "label": "MakeItFrom.com – Unsaturated polyester (generic)",
+    "url": "https://www.makeitfrom.com/material-properties/Unsaturated-Polyester-UP",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "pb-aluminum",
+    "label": "Physically Based – Aluminum",
+    "url": "https://physicallybased.info/?search=Aluminum",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-brass",
+    "label": "Physically Based – Brass",
+    "url": "https://physicallybased.info/?search=Brass",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-copper",
+    "label": "Physically Based – Copper",
+    "url": "https://physicallybased.info/?search=Copper",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-glass",
+    "label": "Physically Based – Glass",
+    "url": "https://physicallybased.info/?search=Glass",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-iron",
+    "label": "Physically Based – Iron",
+    "url": "https://physicallybased.info/?search=Iron",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-lead",
+    "label": "Physically Based – Lead",
+    "url": "https://physicallybased.info/?search=Lead",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-magnesium",
+    "label": "Physically Based – Magnesium",
+    "url": "https://physicallybased.info/?search=Magnesium",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-plastic-acrylic",
+    "label": "Physically Based – Plastic (Acrylic)",
+    "url": "https://physicallybased.info/?search=Plastic+(Acrylic)",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-plastic-pc",
+    "label": "Physically Based – Plastic (PC)",
+    "url": "https://physicallybased.info/?search=Plastic+(PC)",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-plastic-pvc",
+    "label": "Physically Based – Plastic (PVC)",
+    "url": "https://physicallybased.info/?search=Plastic+(PVC)",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-stainless-steel",
+    "label": "Physically Based – Stainless Steel",
+    "url": "https://physicallybased.info/?search=Stainless+Steel",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-titanium",
+    "label": "Physically Based – Titanium",
+    "url": "https://physicallybased.info/?search=Titanium",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "pb-zinc",
+    "label": "Physically Based – Zinc",
+    "url": "https://physicallybased.info/?search=Zinc",
+    "type": "appearance",
+    "accessed": "2026-11-17",
+    "license": "CC0-1.0"
+  },
+  {
+    "id": "toray-t700s",
+    "label": "Toray TORAYCA T700S data sheet (Rev. 11/24/2025)",
+    "url": "https://www.toraycma.com/wp-content/uploads/T700S-Data-Sheet.pdf",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "wd-balsa",
+    "label": "The Wood Database – Balsa (Ochroma pyramidale)",
+    "url": "https://www.wood-database.com/balsa/",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "wd-honduran-mahogany",
+    "label": "The Wood Database – Honduran mahogany (Swietenia macrophylla)",
+    "url": "https://www.wood-database.com/honduran-mahogany/",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "wd-iroko",
+    "label": "The Wood Database – Iroko (Milicia excelsa)",
+    "url": "https://www.wood-database.com/iroko/",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "wd-okoume",
+    "label": "The Wood Database – Okoume (Aucoumea klaineana)",
+    "url": "https://www.wood-database.com/okoume/",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "wd-teak",
+    "label": "The Wood Database – Teak (Tectona grandis)",
+    "url": "https://www.wood-database.com/teak/",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "wd-white-oak",
+    "label": "The Wood Database – White oak (Quercus alba)",
+    "url": "https://www.wood-database.com/white-oak/",
+    "type": "engineering",
+    "accessed": "2026-11-17"
+  },
+  {
+    "id": "wiki-glass-fiber",
+    "label": "Wikipedia – Glass fiber (properties table, cites Ilschner et al., Ullmann's 2000)",
+    "url": "https://en.wikipedia.org/wiki/Glass_fiber",
+    "type": "engineering",
+    "accessed": "2026-11-17",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "wiki-kevlar",
+    "label": "Wikipedia – Kevlar (properties section)",
+    "url": "https://en.wikipedia.org/wiki/Kevlar",
+    "type": "engineering",
+    "accessed": "2026-11-17",
+    "license": "CC BY-SA 4.0"
+  },
+  {
+    "id": "wiki-uhmwpe",
+    "label": "Wikipedia – Ultra-high-molecular-weight polyethylene (Dyneema SK75 fibre)",
+    "url": "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene",
+    "type": "engineering",
+    "accessed": "2026-11-17",
+    "license": "CC BY-SA 4.0"
+  }
+]

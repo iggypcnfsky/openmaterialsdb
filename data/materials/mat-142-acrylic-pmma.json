@@ -1,0 +1,146 @@
+{
+  "id": "MAT-142",
+  "slug": "acrylic-pmma",
+  "name": "Acrylic (PMMA)",
+  "name_source": "Akryl (PMMA)",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Okna",
+    "elementy przezroczyste"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          1,
+          1,
+          1
+        ],
+        "srgb": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#ffffff",
+        "source": "pb-plastic-acrylic"
+      },
+      "base_metalness": {
+        "value": 0,
+        "source": "pb-plastic-acrylic"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-plastic-acrylic",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.4905,
+        "source": "pb-plastic-acrylic"
+      },
+      "transmission_weight": {
+        "value": 1,
+        "source": "pb-plastic-acrylic"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-acrylic.jpeg",
+    "pb_name": "Plastic (Acrylic)",
+    "proxy_note": "Clear, unpigmented polymer.",
+    "upstream_sources": [
+      "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
+      "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 3.2,
+      "source": "mif-pmma-acrylic"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 4.0,
+      "source": "mif-pmma-acrylic"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "value": 71.0,
+      "source": "mif-pmma-acrylic"
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 0.19,
+      "source": "mif-pmma-acrylic"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 76.0,
+      "source": "mif-pmma-acrylic"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 1200.0,
+      "source": "mif-pmma-acrylic"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 83,
+    "density_kg_m3": {
+      "value": 1190.0
+    },
+    "young_modulus_gpa": {
+      "value": 3.2
+    },
+    "cost": {
+      "min": 12.0,
+      "max": 25.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "mif-pmma-acrylic",
+        "label": "MakeItFrom.com – PMMA (acrylic)",
+        "url": "https://www.makeitfrom.com/material-properties/Polymethylmethacrylate-PMMA-Acrylic",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-plastic-acrylic",
+        "label": "Physically Based – Plastic (Acrylic)",
+        "url": "https://physicallybased.info/?search=Plastic+(Acrylic)",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

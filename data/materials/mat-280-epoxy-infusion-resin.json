@@ -1,0 +1,81 @@
+{
+  "id": "MAT-280",
+  "slug": "epoxy-infusion-resin",
+  "name": "Epoxy infusion resin",
+  "name_source": "Epoxy infusion resin",
+  "category": "Resin",
+  "subcategory": null,
+  "marine_use": [
+    "Procesy infuzyjne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [
+    {
+      "unit": "EUR/kg",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-in2-epoxy-infusion-resin",
+      "confidence": "low",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 18.6,
+      "note": "From-price for the largest kit; small kits cost more."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 160,
+    "density_kg_m3": {
+      "value": 1100.0
+    },
+    "young_modulus_gpa": {
+      "value": 3.2
+    },
+    "cost": {
+      "min": 9.0,
+      "max": 16.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "resin"
+    ],
+    "sources": [
+      {
+        "id": "ec-in2-epoxy-infusion-resin",
+        "label": "Easy Composites EU – IN2 epoxy infusion resin",
+        "url": "https://www.easycomposites.eu/in2-epoxy-infusion-resin",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

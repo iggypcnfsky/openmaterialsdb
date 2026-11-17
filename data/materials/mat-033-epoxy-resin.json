@@ -1,0 +1,146 @@
+{
+  "id": "MAT-033",
+  "slug": "epoxy-resin",
+  "name": "Epoxy resin",
+  "name_source": "Żywica epoksydowa",
+  "category": "Resin",
+  "subcategory": null,
+  "marine_use": [
+    "Matryca laminatów wysokiej jakości"
+  ],
+  "appearance": {
+    "openpbr": {
+      "specular_ior": {
+        "unit": "",
+        "value": 1.6,
+        "source": "mif-epoxy-generic-cast-thermoset"
+      }
+    },
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 2.4,
+      "source": "mif-epoxy-generic-cast-thermoset",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 4.5,
+      "source": "mif-epoxy-generic-cast-thermoset",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.4,
+      "source": "mif-epoxy-generic-cast-thermoset",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "value": 67.0,
+      "source": "mif-epoxy-generic-cast-thermoset",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 130.0,
+      "source": "mif-epoxy-generic-cast-thermoset",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 0.2,
+      "source": "mif-epoxy-generic-cast-thermoset",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 100.0,
+      "source": "mif-epoxy-generic-cast-thermoset",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 1300.0,
+      "source": "mif-epoxy-generic-cast-thermoset",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "notes": null
+  },
+  "cost": [
+    {
+      "unit": "EUR/kg",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-el2-epoxy-laminating-resin",
+      "confidence": "medium",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 17.65,
+      "max": 30.7,
+      "value": 24.17,
+      "note": "Largest kit (from-price) to 500 g kit."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 22,
+    "density_kg_m3": {
+      "min": 1100.0,
+      "max": 1200.0
+    },
+    "young_modulus_gpa": {
+      "min": 3.0,
+      "max": 4.0
+    },
+    "cost": {
+      "min": 8.0,
+      "max": 15.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "resin"
+    ],
+    "sources": [
+      {
+        "id": "ec-el2-epoxy-laminating-resin",
+        "label": "Easy Composites EU – EL2 epoxy laminating resin",
+        "url": "https://www.easycomposites.eu/el2-epoxy-laminating-resin",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "mif-epoxy-generic-cast-thermoset",
+        "label": "MakeItFrom.com – Epoxy (generic cast thermoset)",
+        "url": "https://www.makeitfrom.com/material-properties/Epoxy",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

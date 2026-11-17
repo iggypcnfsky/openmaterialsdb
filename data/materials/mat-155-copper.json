@@ -1,0 +1,181 @@
+{
+  "id": "MAT-155",
+  "slug": "copper",
+  "name": "Copper",
+  "name_source": "Miedź",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy specjalne",
+    "okablowanie"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.932,
+          0.623,
+          0.522
+        ],
+        "srgb": [
+          0.9695,
+          0.8112,
+          0.7497
+        ],
+        "hex": "#f7cfbf",
+        "source": "pb-copper"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-copper"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-copper",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-copper"
+      },
+      "specular_color": {
+        "linear": [
+          0.999,
+          0.9,
+          0.744
+        ],
+        "source": "pb-copper",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          0.133762,
+          3.10615,
+          1.05661,
+          2.63095,
+          1.68637,
+          2.42655
+        ],
+        "source": "pb-copper",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/copper.jpeg",
+    "pb_name": "Copper",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=main&book=Cu&page=Johnson",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 120.0,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 1.5,
+      "max": 50.0,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.34,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 220.0,
+      "max": 410.0,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 69.0,
+      "max": 390.0,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 200.0,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 390.0,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 17.0,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 9000.0,
+      "source": "mif-uns-c11000-etp-copper"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 90,
+    "density_kg_m3": {
+      "value": 8960.0
+    },
+    "young_modulus_gpa": {
+      "value": 110.0
+    },
+    "cost": {
+      "min": 8.0,
+      "max": 14.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-uns-c11000-etp-copper",
+        "label": "MakeItFrom.com – UNS C11000 ETP copper",
+        "url": "https://www.makeitfrom.com/material-properties/UNS-C11000-CW004A-Electrolytic-Tough-Pitch-Copper",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-copper",
+        "label": "Physically Based – Copper",
+        "url": "https://physicallybased.info/?search=Copper",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

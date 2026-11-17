@@ -1,0 +1,98 @@
+{
+  "id": "MAT-230",
+  "slug": "hdpe",
+  "name": "HDPE",
+  "name_source": "HDPE",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy odporne",
+    "zbiorniki"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 2.5,
+      "max": 100.0,
+      "source": "mif-hdpe"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 24.0,
+      "max": 80.0,
+      "source": "mif-hdpe"
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 90.0,
+      "source": "mif-hdpe"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "min": 1000.0,
+      "max": 1300.0,
+      "source": "mif-hdpe"
+    },
+    "water_absorption": {
+      "unit": "%",
+      "min": 0.1,
+      "max": 0.3,
+      "source": "mif-hdpe"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 126,
+    "density_kg_m3": {
+      "value": 950.0
+    },
+    "young_modulus_gpa": {
+      "value": 0.8
+    },
+    "cost": {
+      "min": 2.0,
+      "max": 4.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "high",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "mif-hdpe",
+        "label": "MakeItFrom.com – HDPE",
+        "url": "https://www.makeitfrom.com/material-properties/High-Density-Polyethylene-HDPE",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "MAT-340",
+  "slug": "zinc-anode-hull",
+  "name": "Zinc anode hull",
+  "name_source": "Zinc anode hull",
+  "category": "Cathodic protection",
+  "subcategory": null,
+  "marine_use": [
+    "Ochrona kadłuba"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.808,
+          0.844,
+          0.865
+        ],
+        "srgb": [
+          0.9103,
+          0.928,
+          0.9381
+        ],
+        "hex": "#e8edef",
+        "source": "pb-zinc"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-zinc"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-zinc",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-zinc"
+      },
+      "specular_color": {
+        "linear": [
+          0.854,
+          0.922,
+          0.923
+        ],
+        "source": "pb-zinc",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          3.15207,
+          7.39342,
+          1.89133,
+          6.28678,
+          1.48736,
+          4.92701
+        ],
+        "source": "pb-zinc",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/zinc.jpeg",
+    "pb_name": "Zinc",
+    "proxy_note": "Pure-metal optical data; anode alloys differ slightly.",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=main&book=Zn&page=Werner-DFT",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 7000.0,
+      "unit": "kg/m³",
+      "source": "pb-zinc",
+      "note": "Pure metal density."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 193,
+    "density_kg_m3": null,
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 15.0,
+      "max": 30.0
+    },
+    "cost_unit": "EUR/szt",
+    "confidence": "high",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "cathodic-protection",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "pb-zinc",
+        "label": "Physically Based – Zinc",
+        "url": "https://physicallybased.info/?search=Zinc",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

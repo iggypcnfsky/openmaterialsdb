@@ -1,0 +1,105 @@
+{
+  "id": "MAT-322",
+  "slug": "polycarbonate-multiwall",
+  "name": "Polycarbonate multiwall",
+  "name_source": "Polycarbonate multiwall",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Lekkie przeszklenia"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          1,
+          1,
+          1
+        ],
+        "srgb": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#ffffff",
+        "source": "pb-plastic-pc"
+      },
+      "base_metalness": {
+        "value": 0,
+        "source": "pb-plastic-pc"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-plastic-pc",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5848,
+        "source": "pb-plastic-pc"
+      },
+      "transmission_weight": {
+        "value": 1,
+        "source": "pb-plastic-pc"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pc.jpeg",
+    "pb_name": "Plastic (PC)",
+    "proxy_note": "Clear polycarbonate optical data; multiwall geometry not modelled.",
+    "upstream_sources": [
+      "https://en.wikipedia.org/wiki/Polycarbonate",
+      "https://refractiveindex.info/?shelf=3d&book=plastics&page=pc",
+      "https://www.bpf.co.uk/plastipedia/polymers/polycarbonate.aspx"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 185,
+    "density_kg_m3": null,
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 20.0,
+      "max": 40.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "pb-plastic-pc",
+        "label": "Physically Based – Plastic (PC)",
+        "url": "https://physicallybased.info/?search=Plastic+(PC)",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

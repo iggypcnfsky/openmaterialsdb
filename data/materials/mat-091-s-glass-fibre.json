@@ -1,0 +1,100 @@
+{
+  "id": "MAT-091",
+  "slug": "s-glass-fibre",
+  "name": "S-glass fibre",
+  "name_source": "Włókno szklane S-glass",
+  "category": "Fibre",
+  "subcategory": null,
+  "marine_use": [
+    "Wyższa wytrzymałość niż E-glass"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "tensile_strength": {
+      "value": 4890,
+      "unit": "MPa",
+      "source": "wiki-glass-fiber",
+      "note": "S-2 glass, single fibre"
+    },
+    "compressive_strength": {
+      "value": 1600,
+      "unit": "MPa",
+      "source": "wiki-glass-fiber"
+    },
+    "young_modulus": {
+      "value": 85.5,
+      "unit": "GPa",
+      "source": "wiki-glass-fiber"
+    },
+    "density": {
+      "value": 2460,
+      "unit": "kg/m³",
+      "source": "wiki-glass-fiber"
+    },
+    "thermal_expansion": {
+      "value": 2.9,
+      "unit": "µm/m·K",
+      "source": "wiki-glass-fiber"
+    },
+    "softening_temp": {
+      "value": 1056,
+      "unit": "°C",
+      "source": "wiki-glass-fiber"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 57,
+    "density_kg_m3": {
+      "value": 2490.0
+    },
+    "young_modulus_gpa": {
+      "value": 87.0
+    },
+    "cost": {
+      "min": 8.0,
+      "max": 14.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "fibre",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "wiki-glass-fiber",
+        "label": "Wikipedia – Glass fiber (properties table, cites Ilschner et al., Ullmann's 2000)",
+        "url": "https://en.wikipedia.org/wiki/Glass_fiber",
+        "type": "engineering",
+        "accessed": "2026-11-17",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

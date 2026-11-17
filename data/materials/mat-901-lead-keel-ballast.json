@@ -1,0 +1,108 @@
+{
+  "id": "MAT-901",
+  "slug": "lead-keel-ballast",
+  "name": "Lead (keel ballast)",
+  "name_source": "Lead (keel ballast)",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Keel ballast"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.626,
+          0.64,
+          0.693
+        ],
+        "srgb": [
+          0.8129,
+          0.821,
+          0.8505
+        ],
+        "hex": "#cfd1d9",
+        "source": "pb-lead"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-lead"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-lead",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-lead"
+      },
+      "specular_color": {
+        "linear": [
+          0.717,
+          0.717,
+          0.696
+        ],
+        "source": "pb-lead",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          2.71051,
+          4.04246,
+          2.68791,
+          4.01366,
+          2.9091,
+          4.17426
+        ],
+        "source": "pb-lead",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/lead.jpeg",
+    "pb_name": "Lead",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=main&book=Pb&page=Werner-DFT",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 11340.0,
+      "unit": "kg/m³",
+      "source": "pb-lead"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": null,
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "pb-lead",
+        "label": "Physically Based – Lead",
+        "url": "https://physicallybased.info/?search=Lead",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "added (requested in brief, not in sheet)"
+  }
+}

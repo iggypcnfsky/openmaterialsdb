@@ -1,0 +1,99 @@
+{
+  "id": "MAT-121",
+  "slug": "oak",
+  "name": "Oak",
+  "name_source": "Dąb",
+  "category": "Wood",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy wnętrz"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 755.0,
+      "unit": "kg/m³",
+      "note": "Average dried weight at 12% MC",
+      "source": "wd-white-oak"
+    },
+    "young_modulus": {
+      "value": 12.15,
+      "unit": "GPa",
+      "note": "Bending (MOE), along grain",
+      "source": "wd-white-oak"
+    },
+    "flexural_strength": {
+      "value": 102.3,
+      "unit": "MPa",
+      "note": "Modulus of rupture",
+      "source": "wd-white-oak"
+    },
+    "compressive_strength": {
+      "value": 50.8,
+      "unit": "MPa",
+      "note": "Parallel to grain",
+      "source": "wd-white-oak"
+    },
+    "hardness_janka": {
+      "value": 5990.0,
+      "unit": "N",
+      "source": "wd-white-oak"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 72,
+    "density_kg_m3": {
+      "min": 700.0,
+      "max": 900.0
+    },
+    "young_modulus_gpa": {
+      "min": 12.0,
+      "max": 14.0
+    },
+    "cost": {
+      "min": 20.0,
+      "max": 40.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "wood"
+    ],
+    "sources": [
+      {
+        "id": "wd-white-oak",
+        "label": "The Wood Database – White oak (Quercus alba)",
+        "url": "https://www.wood-database.com/white-oak/",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

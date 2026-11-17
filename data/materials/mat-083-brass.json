@@ -1,0 +1,181 @@
+{
+  "id": "MAT-083",
+  "slug": "brass",
+  "name": "Brass",
+  "name_source": "Mosiądz",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Okucia dekoracyjne"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.91,
+          0.778,
+          0.423
+        ],
+        "srgb": [
+          0.9593,
+          0.8952,
+          0.6822
+        ],
+        "hex": "#f5e4ae",
+        "source": "pb-brass"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-brass"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-brass",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-brass"
+      },
+      "specular_color": {
+        "linear": [
+          0.995,
+          0.974,
+          0.747
+        ],
+        "source": "pb-brass",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          0.341048,
+          4.14088,
+          0.53349,
+          2.67993,
+          1.42749,
+          1.87543
+        ],
+        "source": "pb-brass",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/brass.jpeg",
+    "pb_name": "Brass",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=brass",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Brass",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 110.0,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 2.5,
+      "max": 66.0,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.31,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 320.0,
+      "max": 680.0,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 110.0,
+      "max": 570.0,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 140.0,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 120.0,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 20.0,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 8200.0,
+      "source": "mif-uns-c26000-cartridge-brass-70-30"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 52,
+    "density_kg_m3": {
+      "value": 8500.0
+    },
+    "young_modulus_gpa": {
+      "value": 100.0
+    },
+    "cost": {
+      "min": 6.0,
+      "max": 10.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-uns-c26000-cartridge-brass-70-30",
+        "label": "MakeItFrom.com – UNS C26000 cartridge brass (70/30)",
+        "url": "https://www.makeitfrom.com/material-properties/UNS-C26000-CW505L-Cartridge-Brass",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-brass",
+        "label": "Physically Based – Brass",
+        "url": "https://physicallybased.info/?search=Brass",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

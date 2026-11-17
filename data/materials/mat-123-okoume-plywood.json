@@ -1,0 +1,100 @@
+{
+  "id": "MAT-123",
+  "slug": "okoume-plywood",
+  "name": "Okoume plywood",
+  "name_source": "Sklejka okume",
+  "category": "Wood",
+  "subcategory": null,
+  "marine_use": [
+    "Konstrukcje morskie"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 430.0,
+      "unit": "kg/m³",
+      "note": "Average dried weight at 12% MC",
+      "source": "wd-okoume"
+    },
+    "young_modulus": {
+      "value": 8.47,
+      "unit": "GPa",
+      "note": "Bending (MOE), along grain",
+      "source": "wd-okoume"
+    },
+    "flexural_strength": {
+      "value": 75.0,
+      "unit": "MPa",
+      "note": "Modulus of rupture",
+      "source": "wd-okoume"
+    },
+    "compressive_strength": {
+      "value": 36.2,
+      "unit": "MPa",
+      "note": "Parallel to grain",
+      "source": "wd-okoume"
+    },
+    "hardness_janka": {
+      "value": 1790.0,
+      "unit": "N",
+      "source": "wd-okoume",
+      "note": "Solid okoume wood values; plywood panel properties differ (layup, glue)."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 74,
+    "density_kg_m3": {
+      "min": 500.0,
+      "max": 600.0
+    },
+    "young_modulus_gpa": {
+      "min": 8.0,
+      "max": 10.0
+    },
+    "cost": {
+      "min": 12.0,
+      "max": 25.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "wood"
+    ],
+    "sources": [
+      {
+        "id": "wd-okoume",
+        "label": "The Wood Database – Okoume (Aucoumea klaineana)",
+        "url": "https://www.wood-database.com/okoume/",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

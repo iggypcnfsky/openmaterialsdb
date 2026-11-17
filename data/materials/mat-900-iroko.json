@@ -1,0 +1,81 @@
+{
+  "id": "MAT-900",
+  "slug": "iroko",
+  "name": "Iroko",
+  "name_source": "Iroko",
+  "category": "Wood",
+  "subcategory": null,
+  "marine_use": [
+    "Decking",
+    "Joinery",
+    "Teak substitute"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 660.0,
+      "unit": "kg/m³",
+      "note": "Average dried weight at 12% MC",
+      "source": "wd-iroko"
+    },
+    "young_modulus": {
+      "value": 10.9,
+      "unit": "GPa",
+      "note": "Bending (MOE), along grain",
+      "source": "wd-iroko"
+    },
+    "flexural_strength": {
+      "value": 97.1,
+      "unit": "MPa",
+      "note": "Modulus of rupture",
+      "source": "wd-iroko"
+    },
+    "compressive_strength": {
+      "value": 53.5,
+      "unit": "MPa",
+      "note": "Parallel to grain",
+      "source": "wd-iroko"
+    },
+    "hardness_janka": {
+      "value": 5310.0,
+      "unit": "N",
+      "source": "wd-iroko"
+    },
+    "notes": null,
+    "durability_note": {
+      "text": "Iroko is very durable, and is resistant to both rot and insect attack; it’s sometimes used as a substitute for genuine teak (Tectona grandis).",
+      "source": "wd-iroko"
+    }
+  },
+  "cost": [],
+  "sheet_indicative": null,
+  "metadata": {
+    "tags": [
+      "marine",
+      "wood"
+    ],
+    "sources": [
+      {
+        "id": "wd-iroko",
+        "label": "The Wood Database – Iroko (Milicia excelsa)",
+        "url": "https://www.wood-database.com/iroko/",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "added (requested in brief, not in sheet)"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "id": "MAT-263",
+  "slug": "inconel",
+  "name": "Inconel",
+  "name_source": "Inconel",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy ekstremalne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 200.0,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 33.0,
+      "max": 34.0,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.29,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 790.0,
+      "max": 910.0,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 320.0,
+      "max": 450.0,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 980.0,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 11.0,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 13.0,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 8600.0,
+      "source": "mif-inconel-nickel-alloy-625-n06625",
+      "note": "Sheet entry 'Inconel' mapped to alloy 625, the common marine Inconel grade."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 149,
+    "density_kg_m3": {
+      "value": 8400.0
+    },
+    "young_modulus_gpa": {
+      "value": 200.0
+    },
+    "cost": {
+      "min": 40.0,
+      "max": 70.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "low",
+    "notes": "Bardzo drogi"
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-inconel-nickel-alloy-625-n06625",
+        "label": "MakeItFrom.com – Inconel / nickel alloy 625 (N06625)",
+        "url": "https://www.makeitfrom.com/material-properties/Nickel-Alloy-625-N06625-NA21",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

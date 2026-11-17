@@ -1,0 +1,129 @@
+{
+  "id": "MAT-342",
+  "slug": "magnesium-anode",
+  "name": "Magnesium anode",
+  "name_source": "Magnesium anode",
+  "category": "Cathodic protection",
+  "subcategory": null,
+  "marine_use": [
+    "Woda słodka"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.956,
+          0.953,
+          0.95
+        ],
+        "srgb": [
+          0.9804,
+          0.979,
+          0.9777
+        ],
+        "hex": "#fafaf9",
+        "source": "pb-magnesium"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-magnesium"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-magnesium",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-magnesium"
+      },
+      "specular_color": {
+        "linear": [
+          0.998,
+          0.996,
+          0.983
+        ],
+        "source": "pb-magnesium",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          0.286425,
+          6.75553,
+          0.322265,
+          4.94909,
+          0.594764,
+          4.25174
+        ],
+        "source": "pb-magnesium",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/magnesium.jpeg",
+    "pb_name": "Magnesium",
+    "proxy_note": "Pure-metal optical data; anode alloys differ slightly.",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=main&book=Mg&page=Hagemann",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/w/index.php?title=Magnesium&oldid=1297525267",
+      "https://en.wikipedia.org/w/index.php?title=Density&oldid=1271894167"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 1737.0,
+      "unit": "kg/m³",
+      "source": "pb-magnesium",
+      "note": "Pure metal density."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 195,
+    "density_kg_m3": null,
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 10.0,
+      "max": 20.0
+    },
+    "cost_unit": "EUR/szt",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "cathodic-protection",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "pb-magnesium",
+        "label": "Physically Based – Magnesium",
+        "url": "https://physicallybased.info/?search=Magnesium",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

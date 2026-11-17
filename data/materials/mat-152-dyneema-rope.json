@@ -1,0 +1,85 @@
+{
+  "id": "MAT-152",
+  "slug": "dyneema-rope",
+  "name": "Dyneema rope",
+  "name_source": "Lina Dyneema",
+  "category": "Rigging",
+  "subcategory": null,
+  "marine_use": [
+    "Liny wysokowytrzymałe"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "tensile_strength": {
+      "max": 2400,
+      "unit": "MPa",
+      "source": "wiki-uhmwpe",
+      "note": "Fibre yield strength 'as high as' 2.4 GPa; rope strength is lower (construction-dependent)"
+    },
+    "density": {
+      "value": 970,
+      "unit": "kg/m³",
+      "source": "wiki-uhmwpe",
+      "note": "Dyneema SK75 fibre"
+    },
+    "max_service_temp": {
+      "value": 90,
+      "unit": "°C",
+      "source": "wiki-uhmwpe",
+      "note": "DSM advice for long-term use"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 87,
+    "density_kg_m3": {
+      "value": 970.0
+    },
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 15.0,
+      "max": 40.0
+    },
+    "cost_unit": "EUR/m",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "rigging"
+    ],
+    "sources": [
+      {
+        "id": "wiki-uhmwpe",
+        "label": "Wikipedia – Ultra-high-molecular-weight polyethylene (Dyneema SK75 fibre)",
+        "url": "https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene",
+        "type": "engineering",
+        "accessed": "2026-11-17",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

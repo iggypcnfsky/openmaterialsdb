@@ -1,0 +1,108 @@
+{
+  "id": "MAT-321",
+  "slug": "acrylic-dome",
+  "name": "Acrylic dome",
+  "name_source": "Acrylic dome",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Iluminatory"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          1,
+          1,
+          1
+        ],
+        "srgb": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#ffffff",
+        "source": "pb-plastic-acrylic"
+      },
+      "base_metalness": {
+        "value": 0,
+        "source": "pb-plastic-acrylic"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-plastic-acrylic",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.4905,
+        "source": "pb-plastic-acrylic"
+      },
+      "transmission_weight": {
+        "value": 1,
+        "source": "pb-plastic-acrylic"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-acrylic.jpeg",
+    "pb_name": "Plastic (Acrylic)",
+    "proxy_note": "Clear PMMA optical data.",
+    "upstream_sources": [
+      "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
+      "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 184,
+    "density_kg_m3": {
+      "value": 1190.0
+    },
+    "young_modulus_gpa": {
+      "value": 3.2
+    },
+    "cost": {
+      "min": 40.0,
+      "max": 80.0
+    },
+    "cost_unit": "EUR/szt",
+    "confidence": "low",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "pb-plastic-acrylic",
+        "label": "Physically Based – Plastic (Acrylic)",
+        "url": "https://physicallybased.info/?search=Plastic+(Acrylic)",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

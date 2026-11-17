@@ -1,0 +1,63 @@
+{
+  "id": "MAT-063",
+  "slug": "hybrid-glass-carbon-laminate",
+  "name": "Hybrid glass-carbon laminate",
+  "name_source": "Hybrid glass-carbon laminate",
+  "category": "Composite",
+  "subcategory": null,
+  "marine_use": [
+    "Optymalizacja koszt/sztywność"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": "Composite properties depend strongly on layup, fibre volume fraction and process."
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 39,
+    "density_kg_m3": {
+      "min": 1600.0,
+      "max": 1800.0
+    },
+    "young_modulus_gpa": {
+      "min": 25.0,
+      "max": 45.0
+    },
+    "cost": {
+      "min": 20.0,
+      "max": 40.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "composite",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

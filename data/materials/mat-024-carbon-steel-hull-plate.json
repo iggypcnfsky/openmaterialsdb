@@ -1,0 +1,193 @@
+{
+  "id": "MAT-024",
+  "slug": "carbon-steel-hull-plate",
+  "name": "Carbon steel (hull plate)",
+  "name_source": "Stal węglowa (kadłubowa)",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Duże jednostki stalowe"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.53,
+          0.513,
+          0.494
+        ],
+        "srgb": [
+          0.7548,
+          0.7439,
+          0.7314
+        ],
+        "hex": "#c0bebb",
+        "source": "pb-iron"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-iron"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-iron",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-iron"
+      },
+      "specular_color": {
+        "linear": [
+          0.612,
+          0.541,
+          0.422
+        ],
+        "source": "pb-iron",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          2.73466,
+          3.14869,
+          2.94186,
+          2.92718,
+          3.15654,
+          2.46012
+        ],
+        "source": "pb-iron",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/iron.jpeg",
+    "pb_name": "Iron",
+    "proxy_note": "Pure iron optical data used as a proxy for bare carbon steel.",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=iron",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "hardness_brinell": {
+      "unit": "HB",
+      "value": 140.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 190.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 22.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.29,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "value": 480.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "value": 290.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 400.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 50.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 11.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 7900.0,
+      "source": "mif-astm-a36-s275-structural-carbon-steel",
+      "note": "Proxy: structural carbon steel A36/S275; classed hull-plate grades (e.g. DNV/ABS Grade A) have similar but not identical specs."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 17,
+    "density_kg_m3": {
+      "value": 7850.0
+    },
+    "young_modulus_gpa": {
+      "value": 210.0
+    },
+    "cost": {
+      "min": 1.5,
+      "max": 3.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "high",
+    "notes": "Wymaga ochrony antykorozyjnej"
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-astm-a36-s275-structural-carbon-steel",
+        "label": "MakeItFrom.com – ASTM A36 / S275 structural carbon steel",
+        "url": "https://www.makeitfrom.com/material-properties/ASTM-A36-SS400-S275-Structural-Carbon-Steel",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-iron",
+        "label": "Physically Based – Iron",
+        "url": "https://physicallybased.info/?search=Iron",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

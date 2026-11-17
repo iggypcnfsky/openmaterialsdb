@@ -1,0 +1,99 @@
+{
+  "id": "MAT-370",
+  "slug": "uhmwpe",
+  "name": "UHMWPE",
+  "name_source": "UHMWPE",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy ślizgowe",
+    "odporne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 0.41,
+      "source": "mif-uhmw-pe"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 180.0,
+      "source": "mif-uhmw-pe"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 940.0,
+      "source": "mif-uhmw-pe"
+    },
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 0.8,
+      "source": "mif-uhmw-pe"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 400.0,
+      "source": "mif-uhmw-pe"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "value": 49.0,
+      "source": "mif-uhmw-pe"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 207,
+    "density_kg_m3": {
+      "value": 940.0
+    },
+    "young_modulus_gpa": {
+      "value": 0.7
+    },
+    "cost": {
+      "min": 5.0,
+      "max": 10.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "mif-uhmw-pe",
+        "label": "MakeItFrom.com – UHMW-PE",
+        "url": "https://www.makeitfrom.com/material-properties/Ultra-High-Molecular-Weight-Polyethylene-UHMW-PE",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

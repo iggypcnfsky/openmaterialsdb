@@ -1,0 +1,103 @@
+{
+  "id": "MAT-120",
+  "slug": "mahogany",
+  "name": "Mahogany",
+  "name_source": "Mahoni",
+  "category": "Wood",
+  "subcategory": null,
+  "marine_use": [
+    "Wykończenia klasyczne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "value": 590.0,
+      "unit": "kg/m³",
+      "note": "Average dried weight at 12% MC",
+      "source": "wd-honduran-mahogany"
+    },
+    "young_modulus": {
+      "value": 10.06,
+      "unit": "GPa",
+      "note": "Bending (MOE), along grain",
+      "source": "wd-honduran-mahogany"
+    },
+    "flexural_strength": {
+      "value": 80.8,
+      "unit": "MPa",
+      "note": "Modulus of rupture",
+      "source": "wd-honduran-mahogany"
+    },
+    "compressive_strength": {
+      "value": 46.6,
+      "unit": "MPa",
+      "note": "Parallel to grain",
+      "source": "wd-honduran-mahogany"
+    },
+    "hardness_janka": {
+      "value": 4020.0,
+      "unit": "N",
+      "source": "wd-honduran-mahogany"
+    },
+    "notes": null,
+    "durability_note": {
+      "text": "Varies from moderately durable to very durable depending on density and growing conditions of the tree. (Older, wild-grown trees tend to produce darker, heavier, and more durable lumber, while plantation-grown stock can be lighter in weight, paler in color, and slightly less rot resistant.) Heartwood is generally resistant to termites, but vulnerable to other insects.",
+      "source": "wd-honduran-mahogany"
+    }
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 71,
+    "density_kg_m3": {
+      "min": 500.0,
+      "max": 700.0
+    },
+    "young_modulus_gpa": {
+      "min": 10.0,
+      "max": 12.0
+    },
+    "cost": {
+      "min": 30.0,
+      "max": 60.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "low",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "wood"
+    ],
+    "sources": [
+      {
+        "id": "wd-honduran-mahogany",
+        "label": "The Wood Database – Honduran mahogany (Swietenia macrophylla)",
+        "url": "https://www.wood-database.com/honduran-mahogany/",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

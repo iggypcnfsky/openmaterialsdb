@@ -1,0 +1,146 @@
+{
+  "id": "MAT-010",
+  "slug": "pvc-foam-core-divinycell-h60-h100",
+  "name": "PVC foam core (Divinycell H60–H100)",
+  "name_source": "Rdzeń PVC (Divinycell H60–H100)",
+  "category": "Core",
+  "subcategory": null,
+  "marine_use": [
+    "Konstrukcje sandwich"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "density": {
+      "min": 60,
+      "max": 100,
+      "unit": "kg/m³",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H60/Divinycell H80/Divinycell H100"
+    },
+    "compressive_strength": {
+      "min": 0.9,
+      "max": 2.0,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H60/Divinycell H80/Divinycell H100, perpendicular to plane"
+    },
+    "compressive_modulus": {
+      "min": 70,
+      "max": 135,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H60/Divinycell H80/Divinycell H100, perpendicular to plane"
+    },
+    "tensile_strength": {
+      "min": 1.8,
+      "max": 3.5,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H60/Divinycell H80/Divinycell H100, perpendicular to plane"
+    },
+    "tensile_modulus_core": {
+      "min": 75,
+      "max": 130,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H60/Divinycell H80/Divinycell H100, perpendicular to plane"
+    },
+    "shear_strength": {
+      "min": 0.76,
+      "max": 1.6,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H60/Divinycell H80/Divinycell H100, perpendicular to plane"
+    },
+    "shear_modulus": {
+      "min": 20,
+      "max": 35,
+      "unit": "MPa",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H60/Divinycell H80/Divinycell H100, perpendicular to plane"
+    },
+    "thermal_conductivity": {
+      "min": 0.029,
+      "max": 0.033,
+      "unit": "W/m·K",
+      "source": "diab-divinycell-h",
+      "note": "Nominal, Divinycell H60/Divinycell H80/Divinycell H100"
+    },
+    "notes": null
+  },
+  "cost": [
+    {
+      "unit": "EUR/m²",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-easycell75-closed-cell-pvc-foam",
+      "confidence": "low",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 25.3,
+      "note": "Default thickness variant on the listing; not Divinycell brand."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 8,
+    "density_kg_m3": {
+      "min": 60.0,
+      "max": 100.0
+    },
+    "young_modulus_gpa": {
+      "min": 0.05,
+      "max": 0.1
+    },
+    "cost": {
+      "min": 15.0,
+      "max": 25.0
+    },
+    "cost_unit": "EUR/m³",
+    "confidence": "medium",
+    "notes": "Standard w jachtach"
+  },
+  "metadata": {
+    "tags": [
+      "core",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "diab-divinycell-h",
+        "label": "Diab Divinycell H technical data sheet, rev 26 SI (May 2026)",
+        "url": "https://diab-media.azureedge.net/eyajkrhd/diab-divinycell-h-may-2026-rev26-si.pdf",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "ec-easycell75-closed-cell-pvc-foam",
+        "label": "Easy Composites EU – EasyCell75 closed-cell PVC foam, 75 kg/m³",
+        "url": "https://www.easycomposites.eu/easycell75-closed-cell-pvc-foam",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

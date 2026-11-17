@@ -1,0 +1,128 @@
+{
+  "id": "MAT-034",
+  "slug": "polyester-resin",
+  "name": "Polyester resin",
+  "name_source": "Żywica poliestrowa",
+  "category": "Resin",
+  "subcategory": null,
+  "marine_use": [
+    "Matryca tańszych laminatów"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 17.0,
+      "source": "mif-unsaturated-polyester-generic",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 1.0,
+      "source": "mif-unsaturated-polyester-generic",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "value": 30.0,
+      "source": "mif-unsaturated-polyester-generic",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 0.7,
+      "source": "mif-unsaturated-polyester-generic",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 3.0,
+      "source": "mif-unsaturated-polyester-generic",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 2000.0,
+      "source": "mif-unsaturated-polyester-generic",
+      "note": "Neat cast resin, not a laminate."
+    },
+    "notes": null
+  },
+  "cost": [
+    {
+      "unit": "EUR/kg",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-high-quality-gp-polyester-resin",
+      "confidence": "medium",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 6.91,
+      "max": 12.5,
+      "value": 9.71,
+      "note": "Largest pack (from-price) to 1 kg."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 23,
+    "density_kg_m3": {
+      "min": 1100.0,
+      "max": 1200.0
+    },
+    "young_modulus_gpa": {
+      "min": 3.0,
+      "max": 3.5
+    },
+    "cost": {
+      "min": 3.0,
+      "max": 6.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "resin"
+    ],
+    "sources": [
+      {
+        "id": "ec-high-quality-gp-polyester-resin",
+        "label": "Easy Composites EU – GPX premium polyester laminating resin",
+        "url": "https://www.easycomposites.eu/high-quality-gp-polyester-resin",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "mif-unsaturated-polyester-generic",
+        "label": "MakeItFrom.com – Unsaturated polyester (generic)",
+        "url": "https://www.makeitfrom.com/material-properties/Unsaturated-Polyester-UP",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

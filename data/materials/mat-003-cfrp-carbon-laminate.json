@@ -1,0 +1,95 @@
+{
+  "id": "MAT-003",
+  "slug": "cfrp-carbon-laminate",
+  "name": "CFRP carbon laminate",
+  "name_source": "CFRP – laminat węglowy",
+  "category": "Composite",
+  "subcategory": null,
+  "marine_use": [
+    "Wysokowytrzymałe elementy",
+    "maszty",
+    "foile"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "tensile_strength": {
+      "value": 2860,
+      "unit": "MPa",
+      "source": "toray-t700s",
+      "note": "T700S/epoxy UD composite, 60% Vf, 0° – strongly layup-dependent"
+    },
+    "young_modulus": {
+      "value": 134,
+      "unit": "GPa",
+      "source": "toray-t700s",
+      "note": "UD 0°, 60% Vf; quasi-isotropic laminates are much lower"
+    },
+    "compressive_strength": {
+      "value": 1450,
+      "unit": "MPa",
+      "source": "toray-t700s",
+      "note": "UD 0°, 60% Vf"
+    },
+    "flexural_strength": {
+      "value": 1690,
+      "unit": "MPa",
+      "source": "toray-t700s"
+    },
+    "notes": "Values are for a unidirectional T700S/epoxy laminate at 60% fibre volume. Real hull laminates (multi-axial, lower Vf) are substantially lower."
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 5,
+    "density_kg_m3": {
+      "min": 1500.0,
+      "max": 1600.0
+    },
+    "young_modulus_gpa": {
+      "min": 60.0,
+      "max": 90.0
+    },
+    "cost": {
+      "min": 40.0,
+      "max": 80.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": "Drogi, wysoka sztywność"
+  },
+  "metadata": {
+    "tags": [
+      "composite",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "toray-t700s",
+        "label": "Toray TORAYCA T700S data sheet (Rev. 11/24/2025)",
+        "url": "https://www.toraycma.com/wp-content/uploads/T700S-Data-Sheet.pdf",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

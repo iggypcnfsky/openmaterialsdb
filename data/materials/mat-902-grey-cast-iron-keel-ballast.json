@@ -1,0 +1,159 @@
+{
+  "id": "MAT-902",
+  "slug": "grey-cast-iron-keel-ballast",
+  "name": "Grey cast iron (keel ballast)",
+  "name_source": "Grey cast iron (keel ballast)",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Keel ballast"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.53,
+          0.513,
+          0.494
+        ],
+        "srgb": [
+          0.7548,
+          0.7439,
+          0.7314
+        ],
+        "hex": "#c0bebb",
+        "source": "pb-iron"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-iron"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-iron",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-iron"
+      },
+      "specular_color": {
+        "linear": [
+          0.612,
+          0.541,
+          0.422
+        ],
+        "source": "pb-iron",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          2.73466,
+          3.14869,
+          2.94186,
+          2.92718,
+          3.15654,
+          2.46012
+        ],
+        "source": "pb-iron",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/iron.jpeg",
+    "pb_name": "Iron",
+    "proxy_note": "Pure iron optical data as proxy for machined cast iron.",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=iron",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Density"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "hardness_brinell": {
+      "unit": "HB",
+      "min": 160.0,
+      "max": 300.0,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 180.0,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 9.6,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.29,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 160.0,
+      "max": 450.0,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 98.0,
+      "max": 290.0,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 46.0,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 11.0,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 7500.0,
+      "source": "mif-grey-cast-iron-generic"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": null,
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-grey-cast-iron-generic",
+        "label": "MakeItFrom.com – Grey cast iron (generic)",
+        "url": "https://www.makeitfrom.com/material-properties/Grey-Cast-Iron",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-iron",
+        "label": "Physically Based – Iron",
+        "url": "https://physicallybased.info/?search=Iron",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "added (requested in brief, not in sheet)"
+  }
+}

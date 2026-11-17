@@ -1,0 +1,79 @@
+{
+  "id": "MAT-270",
+  "slug": "carbon-fiber-twill-200g",
+  "name": "Carbon fiber twill 200g",
+  "name_source": "Carbon fiber twill 200g",
+  "category": "Fibre",
+  "subcategory": null,
+  "marine_use": [
+    "Laminaty wizualne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [
+    {
+      "unit": "EUR/m²",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-240g-22-twill-3k-carbon-fibre-cloth",
+      "confidence": "medium",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 25.2,
+      "max": 32.0,
+      "value": 28.6,
+      "note": "Nearest listed weight (240 g) to the sheet's 200 g twill."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 153,
+    "density_kg_m3": null,
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 30.0,
+      "max": 50.0
+    },
+    "cost_unit": "EUR/m²",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "fibre",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "ec-240g-22-twill-3k-carbon-fibre-cloth",
+        "label": "Easy Composites EU – 240 g/m² 2x2 twill 3k carbon cloth, 1.25 m",
+        "url": "https://www.easycomposites.eu/240g-22-twill-3k-carbon-fibre-cloth",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

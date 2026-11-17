@@ -1,0 +1,80 @@
+{
+  "id": "MAT-040",
+  "slug": "gelcoat",
+  "name": "Gelcoat",
+  "name_source": "Gelcoat",
+  "category": "Coating",
+  "subcategory": null,
+  "marine_use": [
+    "Warstwa zewnętrzna laminatów"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [
+    {
+      "unit": "EUR/kg",
+      "currency": "EUR",
+      "region": "EU (ships from NL)",
+      "date": "2026-11-17",
+      "source": "ec-clearpol-iso-npg-clear-polyester-gelcoat",
+      "confidence": "low",
+      "vat": "excl. VAT",
+      "basis": "retail web listing",
+      "min": 11.7,
+      "note": "From-price; clear gelcoat, pigmented gelcoats vary."
+    }
+  ],
+  "sheet_indicative": {
+    "row": 26,
+    "density_kg_m3": {
+      "min": 1200.0,
+      "max": 1400.0
+    },
+    "young_modulus_gpa": null,
+    "cost": {
+      "min": 6.0,
+      "max": 10.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "coating",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "ec-clearpol-iso-npg-clear-polyester-gelcoat",
+        "label": "Easy Composites EU – GCX clear ISO/NPG polyester spray gelcoat",
+        "url": "https://www.easycomposites.eu/clearpol-iso-npg-clear-polyester-gelcoat",
+        "type": "cost",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

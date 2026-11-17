@@ -1,0 +1,200 @@
+{
+  "id": "MAT-021",
+  "slug": "aluminium-6082",
+  "name": "Aluminium 6082",
+  "name_source": "Aluminium 6082",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Profile",
+    "elementy spawane"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.916,
+          0.923,
+          0.924
+        ],
+        "srgb": [
+          0.9621,
+          0.9654,
+          0.9658
+        ],
+        "hex": "#f5f6f6",
+        "source": "pb-aluminum"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-aluminum"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-aluminum",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-aluminum"
+      },
+      "specular_color": {
+        "linear": [
+          0.989,
+          0.989,
+          0.972
+        ],
+        "source": "pb-aluminum",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          0.728978,
+          6.45971,
+          0.588215,
+          5.19646,
+          0.78354,
+          4.37746
+        ],
+        "source": "pb-aluminum",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/aluminum.jpeg",
+    "pb_name": "Aluminum",
+    "proxy_note": "Pure aluminium optical data used for the alloy (alloying shifts colour only slightly).",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=main&book=Al&page=Cheng",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/wiki/Aluminium",
+      "https://en.wikipedia.org/wiki/Density",
+      "https://en.wikipedia.org/wiki/Mirror"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "hardness_brinell": {
+      "unit": "HB",
+      "min": 40.0,
+      "max": 95.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 69.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 6.3,
+      "max": 18.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.33,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 140.0,
+      "max": 340.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 85.0,
+      "max": 320.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 170.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 160.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 23.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 2700.0,
+      "source": "mif-6082-aluminium-all-tempers",
+      "note": "Range spans all tempers listed on the source page."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 14,
+    "density_kg_m3": {
+      "value": 2700.0
+    },
+    "young_modulus_gpa": {
+      "value": 70.0
+    },
+    "cost": {
+      "min": 3.5,
+      "max": 6.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "high",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-6082-aluminium-all-tempers",
+        "label": "MakeItFrom.com – 6082 aluminium (all tempers)",
+        "url": "https://www.makeitfrom.com/material-properties/6082-AlSi1MgMn-3.2315-H30-A96082-Aluminum",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-aluminum",
+        "label": "Physically Based – Aluminum",
+        "url": "https://physicallybased.info/?search=Aluminum",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

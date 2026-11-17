@@ -1,0 +1,193 @@
+{
+  "id": "MAT-085",
+  "slug": "duplex-stainless-steel",
+  "name": "Duplex stainless steel",
+  "name_source": "Stal duplex",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Wysoka odporność na korozję"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          0.669,
+          0.639,
+          0.598
+        ],
+        "srgb": [
+          0.8373,
+          0.8204,
+          0.7966
+        ],
+        "hex": "#d6d1cb",
+        "source": "pb-stainless-steel"
+      },
+      "base_metalness": {
+        "value": 1,
+        "source": "pb-stainless-steel"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-stainless-steel",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.5,
+        "source": "pb-stainless-steel"
+      },
+      "specular_color": {
+        "linear": [
+          0.804,
+          0.791,
+          0.714
+        ],
+        "source": "pb-stainless-steel",
+        "note": "F82 tint (OpenPBR specular_color for metals)"
+      },
+      "complex_ior": {
+        "value": [
+          2.22981,
+          4.21948,
+          2.04109,
+          3.64081,
+          2.15682,
+          3.07445
+        ],
+        "source": "pb-stainless-steel",
+        "note": "n,k pairs for R,G,B as published by Physically Based"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/stainless-steel.jpeg",
+    "pb_name": "Stainless Steel",
+    "proxy_note": "Generic stainless steel optical data.",
+    "upstream_sources": [
+      "https://refractiveindex.info/?shelf=3d&book=metals&page=stainless_steel",
+      "https://arxiv.org/pdf/2512.23696#appendix.D",
+      "https://en.wikipedia.org/w/index.php?title=Stainless_steel&oldid=1274079682"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "hardness_brinell": {
+      "unit": "HB",
+      "value": 260.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 200.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 28.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.27,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "value": 740.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "value": 510.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 1070.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 15.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 13.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 7800.0,
+      "source": "mif-uns-s32205-2205-duplex-stainless",
+      "note": "Range spans annealed to cold-worked conditions listed on the source page."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 54,
+    "density_kg_m3": {
+      "value": 7800.0
+    },
+    "young_modulus_gpa": {
+      "value": 200.0
+    },
+    "cost": {
+      "min": 6.0,
+      "max": 10.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-uns-s32205-2205-duplex-stainless",
+        "label": "MakeItFrom.com – UNS S32205 (2205) duplex stainless",
+        "url": "https://www.makeitfrom.com/material-properties/UNS-S32205-Stainless-Steel",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-stainless-steel",
+        "label": "Physically Based – Stainless Steel",
+        "url": "https://physicallybased.info/?search=Stainless+Steel",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

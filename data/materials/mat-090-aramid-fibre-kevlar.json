@@ -1,0 +1,81 @@
+{
+  "id": "MAT-090",
+  "slug": "aramid-fibre-kevlar",
+  "name": "Aramid fibre (Kevlar)",
+  "name_source": "Włókno aramidowe (Kevlar)",
+  "category": "Fibre",
+  "subcategory": null,
+  "marine_use": [
+    "Odporność na uderzenia"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "tensile_strength": {
+      "value": 3000,
+      "unit": "MPa",
+      "source": "wiki-kevlar",
+      "note": "Spun fibre, approx."
+    },
+    "density": {
+      "value": 1440,
+      "unit": "kg/m³",
+      "source": "wiki-kevlar"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 56,
+    "density_kg_m3": {
+      "value": 1440.0
+    },
+    "young_modulus_gpa": {
+      "min": 70.0,
+      "max": 120.0
+    },
+    "cost": {
+      "min": 30.0,
+      "max": 50.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "fibre",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "wiki-kevlar",
+        "label": "Wikipedia – Kevlar (properties section)",
+        "url": "https://en.wikipedia.org/wiki/Kevlar",
+        "type": "engineering",
+        "accessed": "2026-11-17",
+        "license": "CC BY-SA 4.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

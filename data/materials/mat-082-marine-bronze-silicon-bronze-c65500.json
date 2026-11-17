@@ -1,0 +1,128 @@
+{
+  "id": "MAT-082",
+  "slug": "marine-bronze-silicon-bronze-c65500",
+  "name": "Marine bronze (silicon bronze C65500)",
+  "name_source": "Brąz morski",
+  "category": "Metal",
+  "subcategory": null,
+  "marine_use": [
+    "Śruby",
+    "okucia",
+    "elementy odporne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 120.0,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 4.0,
+      "max": 70.0,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "poisson_ratio": {
+      "unit": "",
+      "value": 0.34,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 360.0,
+      "max": 760.0,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "yield_strength": {
+      "unit": "MPa",
+      "min": 120.0,
+      "max": 430.0,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 200.0,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 36.0,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 18.0,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 8600.0,
+      "source": "mif-uns-c65500-high-silicon-bronze",
+      "note": "Sheet entry 'Brąz morski' (marine bronze) interpreted as silicon bronze C65500, the common marine fastener bronze."
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 51,
+    "density_kg_m3": {
+      "value": 8800.0
+    },
+    "young_modulus_gpa": {
+      "min": 100.0,
+      "max": 110.0
+    },
+    "cost": {
+      "min": 12.0,
+      "max": 20.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "metal"
+    ],
+    "sources": [
+      {
+        "id": "mif-uns-c65500-high-silicon-bronze",
+        "label": "MakeItFrom.com – UNS C65500 high-silicon bronze",
+        "url": "https://www.makeitfrom.com/material-properties/UNS-C65500-CW116C-Silicon-Bronze",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

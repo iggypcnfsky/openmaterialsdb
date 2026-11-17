@@ -1,0 +1,63 @@
+{
+  "id": "MAT-011",
+  "slug": "pet-foam-core",
+  "name": "PET foam core",
+  "name_source": "Rdzeń PET",
+  "category": "Core",
+  "subcategory": null,
+  "marine_use": [
+    "Sandwich (bardziej recyklingowalny)"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 9,
+    "density_kg_m3": {
+      "min": 80.0,
+      "max": 120.0
+    },
+    "young_modulus_gpa": {
+      "min": 0.06,
+      "max": 0.12
+    },
+    "cost": {
+      "min": 12.0,
+      "max": 20.0
+    },
+    "cost_unit": "EUR/m³",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "core",
+      "marine"
+    ],
+    "sources": [
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "unverified",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

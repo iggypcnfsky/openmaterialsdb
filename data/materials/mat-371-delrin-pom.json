@@ -1,0 +1,86 @@
+{
+  "id": "MAT-371",
+  "slug": "delrin-pom",
+  "name": "Delrin (POM)",
+  "name_source": "Delrin (POM)",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Elementy precyzyjne"
+  ],
+  "appearance": {
+    "openpbr": {},
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "elongation_at_break": {
+      "unit": "%",
+      "min": 7.0,
+      "max": 55.0,
+      "source": "mif-acetal-homopolymer-pom-h"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "min": 60.0,
+      "max": 67.0,
+      "source": "mif-acetal-homopolymer-pom-h"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "min": 1400.0,
+      "max": 1600.0,
+      "source": "mif-acetal-homopolymer-pom-h"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 208,
+    "density_kg_m3": {
+      "value": 1410.0
+    },
+    "young_modulus_gpa": {
+      "value": 3.0
+    },
+    "cost": {
+      "min": 6.0,
+      "max": 12.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "medium",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "mif-acetal-homopolymer-pom-h",
+        "label": "MakeItFrom.com – Acetal homopolymer (POM-H)",
+        "url": "https://www.makeitfrom.com/material-properties/Acetal-Homopolymer-POM-H",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "low",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}

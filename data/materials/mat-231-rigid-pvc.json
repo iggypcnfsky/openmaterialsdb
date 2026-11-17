@@ -1,0 +1,151 @@
+{
+  "id": "MAT-231",
+  "slug": "rigid-pvc",
+  "name": "Rigid PVC",
+  "name_source": "PVC sztywne",
+  "category": "Plastic",
+  "subcategory": null,
+  "marine_use": [
+    "Rury",
+    "elementy"
+  ],
+  "appearance": {
+    "openpbr": {
+      "base_color": {
+        "linear": [
+          1,
+          1,
+          1
+        ],
+        "srgb": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#ffffff",
+        "source": "pb-plastic-pvc"
+      },
+      "base_metalness": {
+        "value": 0,
+        "source": "pb-plastic-pvc"
+      },
+      "specular_roughness": {
+        "value": 0,
+        "source": "pb-plastic-pvc",
+        "note": "Physically Based reference value (clean/polished sample); real surfaces are usually rougher."
+      },
+      "specular_ior": {
+        "value": 1.542,
+        "source": "pb-plastic-pvc"
+      },
+      "transmission_weight": {
+        "value": 1,
+        "source": "pb-plastic-pvc"
+      }
+    },
+    "reference_render": "https://raw.githubusercontent.com/AntonPalmqvist/physically-based-api/main/images/renders/cycles/600/plastic-pvc.jpeg",
+    "pb_name": "Plastic (PVC)",
+    "proxy_note": "Clear, unpigmented polymer.",
+    "upstream_sources": [
+      "https://en.wikipedia.org/wiki/Polyvinyl_chloride",
+      "https://polymerdatabase.com/polymer%20physics/Ref%20Index%20Table2%20.html"
+    ],
+    "pbr_maps": {
+      "basecolor": null,
+      "normal": null,
+      "roughness": null,
+      "metallic": null,
+      "height": null,
+      "ao": null
+    },
+    "materialx_file": null
+  },
+  "engineering": {
+    "young_modulus": {
+      "unit": "GPa",
+      "value": 3.7,
+      "source": "mif-rigid-pvc-upvc"
+    },
+    "elongation_at_break": {
+      "unit": "%",
+      "value": 58.0,
+      "source": "mif-rigid-pvc-upvc"
+    },
+    "tensile_strength": {
+      "unit": "MPa",
+      "value": 47.0,
+      "source": "mif-rigid-pvc-upvc"
+    },
+    "max_service_temp": {
+      "unit": "°C",
+      "value": 95.0,
+      "source": "mif-rigid-pvc-upvc"
+    },
+    "thermal_conductivity": {
+      "unit": "W/m·K",
+      "value": 0.16,
+      "source": "mif-rigid-pvc-upvc"
+    },
+    "thermal_expansion": {
+      "unit": "µm/m·K",
+      "value": 61.0,
+      "source": "mif-rigid-pvc-upvc"
+    },
+    "density": {
+      "unit": "kg/m³",
+      "value": 1400.0,
+      "source": "mif-rigid-pvc-upvc"
+    },
+    "notes": null
+  },
+  "cost": [],
+  "sheet_indicative": {
+    "row": 127,
+    "density_kg_m3": {
+      "value": 1400.0
+    },
+    "young_modulus_gpa": {
+      "value": 3.0
+    },
+    "cost": {
+      "min": 2.0,
+      "max": 5.0
+    },
+    "cost_unit": "EUR/kg",
+    "confidence": "high",
+    "notes": null
+  },
+  "metadata": {
+    "tags": [
+      "marine",
+      "plastic"
+    ],
+    "sources": [
+      {
+        "id": "mif-rigid-pvc-upvc",
+        "label": "MakeItFrom.com – Rigid PVC (uPVC)",
+        "url": "https://www.makeitfrom.com/material-properties/Unplasticized-Rigid-Polyvinyl-Chloride-uPVC-PVC-U",
+        "type": "engineering",
+        "accessed": "2026-11-17"
+      },
+      {
+        "id": "pb-plastic-pvc",
+        "label": "Physically Based – Plastic (PVC)",
+        "url": "https://physicallybased.info/?search=Plastic+(PVC)",
+        "type": "appearance",
+        "accessed": "2026-11-17",
+        "license": "CC0-1.0"
+      },
+      {
+        "id": "omdb-sheet",
+        "label": "OMDB project sheet – 'Lista materiałów' (indicative, unverified)",
+        "url": "https://docs.google.com/spreadsheets/d/15C3IX_kksamelzdgQV4xVeS4bFz43IvbXxgz1zXnwxc",
+        "type": "project",
+        "accessed": "2026-11-17"
+      }
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-11-17",
+    "origin": "project sheet"
+  }
+}
